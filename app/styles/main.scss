@@ -1,0 +1,161 @@
+@import "bootstrap-sass/lib/bootstrap";
+
+/* Put your CSS here */
+html, body, .main, .now-playing, .movies-container, .movie {
+  height: 100%;
+}
+
+body {
+    background: #fafafa;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+.navbar-inner {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+}
+
+.navbar .brand {
+    color: white;
+    text-shadow: none;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.navbar .brand i {
+    font-weight: 100;
+}
+
+.navbar .nav > li > a {
+    color: white;
+    text-shadow: none;
+    line-height: 39px;
+}
+
+.navbar .nav > li > a:hover {
+    color: white;
+}
+
+.main {
+    padding: 0;
+}
+
+.movie .fullsize-background {
+    position: absolute;
+    background-size: 100%;
+    background-position: top center;
+    z-index: -999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.poster {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    -webkit-box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.now-playing {
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.movies-container {
+    width: 200%;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: -webkit-transform ease 1s;
+    transition: transform ease 1s;
+}
+
+.movie { 
+    float: left;
+    position: relative;
+    background-color: #f1f1f1;
+}
+
+.movie .content {
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.movie .content header {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.movie .content h1 {
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 79px;
+    border-left: 20px solid rgba(255, 255, 255, 0.9);
+}
+
+.movie .content .synopsis {
+    font-size: 16px;
+    line-height: 21px;
+    border-left: 14px solid rgba(255, 255, 255, 0.9);
+}
+
+.movie .content .wrap1 {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.movie .content .wrap2 {
+    position: relative;
+    left: -10px;
+}
+
+.critic-rating {
+    font-size: 150px;
+    line-height: 175px;
+    font-weight: 100;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.critic-rating span {
+    font-size: 75px;
+    vertical-align: top;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: 20px 40px;
+    padding: 20px;
+    clear: both;
+}
+
+footer .arrow {
+    cursor: pointer;
+}
+
+footer .arrow i {
+    font-size: 65px;
+    width: 23px;
+    line-height: 45px;
+    margin-top: -14px;
+}
+
+footer .pull-left.arrow {
+    margin-right: 50px;
+}
