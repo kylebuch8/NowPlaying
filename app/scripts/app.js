@@ -9,6 +9,14 @@
                     templateUrl: 'views/main.html',
                     controller: 'MainCtrl'
                 })
+                    .when('/watchlist', {
+                      templateUrl: 'views/watchlist.html',
+                      controller: 'WatchlistCtrl'
+                    })
+                    .when('/watchlist', {
+                      templateUrl: 'views/watchlist.html',
+                      controller: 'WatchlistCtrl'
+                    })
                     .otherwise({
                     redirectTo: '/'
                 });

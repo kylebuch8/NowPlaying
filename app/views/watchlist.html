@@ -1,0 +1,11 @@
+<div class="container-fluid watch-later">
+	<h1>My Watch Later List</h1>
+	<hr>
+	<div class="watch-later-movie" ng-repeat="movie in movies">
+		<div class="pull-left watch-later-poster">
+			<img ng-src="{{movie.posters.detailed}}">
+		</div>
+		<p>{{movie.synopsis}}</p>
+		<p><button class="btn btn-warning" ng-click="removeSavedMovie($index)">Watched</button></p>
+	</div>
+</div>

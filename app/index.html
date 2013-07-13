@@ -30,15 +30,15 @@
     <nav class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container-fluid">
-                <a href="#" class="brand">Now <i>Playing</i></a>
+                <a href="#" class="brand"><span class="orange">Now</span> <i>Playing</i></a>
                 <ul class="nav pull-right">
-                    <li><a href="#">My Watch Later List</a></li>
+                    <li><a href="#/watchlist">My Watch Later List</a></li>
                 </ul>
             </div>
         </div>        
     </nav>
 
-    <div class="container-fluid main" ng-view=""></div>
+    <div class="main-container" ng-view=""></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -71,6 +71,7 @@
         <script src="bower_components/bootstrap-sass/js/bootstrap-collapse.js"></script>
         <script src="bower_components/bootstrap-sass/js/bootstrap-tab.js"></script>
         <script src="scripts/services/NowPlayingSvc.js"></script>
+        <script src="scripts/controllers/watchlist.js"></script>
         <!-- endbuild -->
 </body>
 </html>

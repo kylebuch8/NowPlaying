@@ -4,6 +4,8 @@
 	/*global angular*/
 	angular.module('NowPlayingApp')
 		.service('NowPlayingSvc', ['$http', function NowPlayingSvc($http) {
+			var savedMovies = [];
+
     		return {
     			getMovies: function() {
     				return $http
@@ -12,11 +14,22 @@
     						return data;
     					});
     			},
-    			saveMovie: function() {
+    			saveMovie: function(movie) {
+    				/*
+    				 * push the movie to the front of the array
+    				 */
+    				savedMovies.unshift(movie);
+    				localStorage.setItem('savedMovies', JSON.stringify(savedMovies));
 
+    				return savedMovies;
     			},
     			getSavedMovies: function() {
-    				return;
+    				savedMovies = JSON.parse(localStorage.getItem('savedMovies'));
+    				return savedMovies;
+    			},
+    			removeSavedMovie: function(index) {
+    				savedMovies.splice(index, 1);
+    				localStorage.setItem('savedMovies', JSON.stringify(savedMovies));
     			},
     			data: {
 				    "total": 122,
