@@ -1,18 +1,30 @@
 (function() {
 	'use strict';
 
-	/*global angular*/
+	/*global angular, localStorage*/
 	angular.module('NowPlayingApp')
-		.service('NowPlayingSvc', ['$http', function NowPlayingSvc($http) {
-			var savedMovies = [];
+		.service('NowPlayingSvc', ['$q', '$http', function NowPlayingSvc($q, $http) {
+			var movies = [],
+				savedMovies = [];
 
     		return {
     			getMovies: function() {
-    				return $http
-    					.jsonp('http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?callback=JSON_CALLBACK&apikey=723yhcv78vu2ut757tp63yjg')
-    					.success(function(data) {
-    						return data;
-    					});
+    				var deferred = $q.defer();
+
+    				if (movies.length === 0) {
+	    				return $http
+	    					.jsonp('http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?callback=JSON_CALLBACK&apikey=723yhcv78vu2ut757tp63yjg')
+	    					.success(function(data) {
+	    						movies = data;
+	    						return movies;
+	    					});
+    				} 
+
+    				deferred.resolve({
+    					data: movies
+    				});
+
+    				return deferred.promise;
     			},
     			saveMovie: function(movie) {
     				/*
