@@ -2,7 +2,7 @@
 	<div class="now-playing">
 		<div class="movies-container" ng-style="{'-webkit-transform': 'translate3d(-' + (slide / numSlides) * 100 + '%, 0, 0)', 'transform': 'translate3d(-' + (slide / numSlides) * 100 + '%, 0, 0)', width: numSlides * 100 + '%'};">
 			<article class="movie" ng-repeat="movie in movies" ng-style="{'width': 100 / numSlides + '%'}" ng-init="getColor()">
-				<img ng-src="{{movie.posters.original}}" class="poster">
+				<img ng-src="/img?url={{movie.posters.original}}" class="poster">
 				<div class="content">
 					<header>
 						<h1>
