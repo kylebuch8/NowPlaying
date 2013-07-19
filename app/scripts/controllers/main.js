@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	/*global angular*/
+	/*global angular, $, document*/
 	angular.module('NowPlayingApp')
 		.controller('MainCtrl', ['$scope', 'NowPlayingSvc', function ($scope, NowPlayingSvc) {
 			/*
@@ -32,8 +32,12 @@
 				}
 			};
 
-			$scope.saveMovie = function(movie) {
-				NowPlayingSvc.saveMovie(movie);
+			$scope.toggleSave = function(movie) {
+				if (!movie.saved) {
+					NowPlayingSvc.saveMovie(movie);
+				} else {
+					NowPlayingSvc.removeSavedMovie(movie);
+				}
 			};
 
 			/*
