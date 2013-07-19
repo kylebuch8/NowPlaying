@@ -35,5 +35,21 @@
 			$scope.saveMovie = function(movie) {
 				NowPlayingSvc.saveMovie(movie);
 			};
+
+			/*
+			 * let the user use their left and right arrow keys to move
+			 * back and forth through the movies
+			 */
+			$(document).on('keyup', function(event) {
+				if (event.keyCode === 37) {
+					$scope.moveBack();
+				}
+
+				if (event.keyCode === 39) {
+					$scope.moveForward();
+				}
+
+				$scope.$apply();
+			});
 	}]);
 }());
