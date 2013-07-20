@@ -7,49 +7,26 @@
 			var movies = [],
 				savedMovies = [];
 
-			function getSavedMovies() {
-    			savedMovies = JSON.parse(localStorage.getItem('savedMovies'));
-    			return savedMovies;
-			}
-
     		return {
     			getMovies: function() {
     				var deferred = $q.defer();
 
-					if (movies.length === 0) {
-						return $http
-    					.jsonp('http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?callback=JSON_CALLBACK&apikey=723yhcv78vu2ut757tp63yjg')
-    					.success(function(data) {
-    						/*
-    						 * let's check to see if there are any saved movies.
-    						 * if there are, we'll want to indicate that the movie
-    						 * has been saved
-    						 */
-    						savedMovies = getSavedMovies();
+    				if (movies.length === 0) {
+	    				return $http
+	    					.jsonp('http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?callback=JSON_CALLBACK&apikey=723yhcv78vu2ut757tp63yjg')
+	    					.success(function(data) {
+	    						movies = data;
+	    						return movies;
+	    					});
+    				} 
 
-    						if (savedMovies.length > 0) {
-	    						angular.forEach(data.movies, function(movie) {
-	    							angular.forEach(savedMovies, function(savedMovie) {
-	    								if (movie.title === savedMovie.title) {
-	    									movie.saved = true;
-	    								}
-	    							});
-	    						});
-    						}
-
-    						movies = data;
-    						return movies;
-    					});
-					}
-
-					deferred.resolve({
+    				deferred.resolve({
     					data: movies
     				});
 
     				return deferred.promise;
-       			},
+    			},
     			saveMovie: function(movie) {
-    				movie.saved = true;
     				/*
     				 * push the movie to the front of the array
     				 */
@@ -58,19 +35,12 @@
 
     				return savedMovies;
     			},
-    			getSavedMovies: getSavedMovies,
-    			removeSavedMovie: function(movie) {
-    				var i = 0,
-    					length = savedMovies.length;
-
-    				for (i; i < length; i += 1) {
-    					if (savedMovies[i].title === movie.title) {
-    						movie.saved = false;
-    						savedMovies.splice(i, 1);
-    						break;
-    					}
-    				}
-
+    			getSavedMovies: function() {
+    				savedMovies = JSON.parse(localStorage.getItem('savedMovies'));
+    				return savedMovies;
+    			},
+    			removeSavedMovie: function(index) {
+    				savedMovies.splice(index, 1);
     				localStorage.setItem('savedMovies', JSON.stringify(savedMovies));
     			},
     			data: {

@@ -17,7 +17,7 @@
 						</span>
 					</p>
 					<p class="critic-rating">{{movie.ratings.critics_score}}<span>%</span></p>
-					<button class="btn btn-large btn-warning" ng-click="saveMovie(movie)">Watch Later</button>
+					<button class="btn btn-large btn-warning" ng-class="{true: 'active', false: ''}[movie.saved]" ng-click="toggleSave(movie)"><span ng-hide="!movie.saved">I'm Going To </span>Watch Later</button>
 				</div>
 			</article>
 		</div>

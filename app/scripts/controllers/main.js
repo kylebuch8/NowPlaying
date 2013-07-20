@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	/*global angular*/
+	/*global angular, $, document*/
 	angular.module('NowPlayingApp')
 		.controller('MainCtrl', ['$scope', 'NowPlayingSvc', function ($scope, NowPlayingSvc) {
 			/*
@@ -32,8 +32,28 @@
 				}
 			};
 
-			$scope.saveMovie = function(movie) {
-				NowPlayingSvc.saveMovie(movie);
+			$scope.toggleSave = function(movie) {
+				if (!movie.saved) {
+					NowPlayingSvc.saveMovie(movie);
+				} else {
+					NowPlayingSvc.removeSavedMovie(movie);
+				}
 			};
+
+			/*
+			 * let the user use their left and right arrow keys to move
+			 * back and forth through the movies
+			 */
+			$(document).on('keyup', function(event) {
+				if (event.keyCode === 37) {
+					$scope.moveBack();
+				}
+
+				if (event.keyCode === 39) {
+					$scope.moveForward();
+				}
+
+				$scope.$apply();
+			});
 	}]);
 }());

@@ -14,10 +14,25 @@
 
     		return {
     			getMovies: function() {
+<<<<<<< HEAD
     				var deferred = $q.defer();
 
-					if (movies.length === 0) {
-						return $http
+    				if (movies.length === 0) {
+	    				return $http
+	    					.jsonp('http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?callback=JSON_CALLBACK&apikey=723yhcv78vu2ut757tp63yjg')
+	    					.success(function(data) {
+	    						movies = data;
+	    						return movies;
+	    					});
+    				} 
+
+    				deferred.resolve({
+    					data: movies
+    				});
+
+    				return deferred.promise;
+=======
+    				return $http
     					.jsonp('http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?callback=JSON_CALLBACK&apikey=723yhcv78vu2ut757tp63yjg')
     					.success(function(data) {
     						/*
@@ -37,17 +52,11 @@
 	    						});
     						}
 
-    						movies = data;
-    						return movies;
+
+    						return data;
     					});
-					}
-
-					deferred.resolve({
-    					data: movies
-    				});
-
-    				return deferred.promise;
-       			},
+>>>>>>> dev
+    			},
     			saveMovie: function(movie) {
     				movie.saved = true;
     				/*
