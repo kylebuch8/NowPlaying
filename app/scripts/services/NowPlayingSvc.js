@@ -18,28 +18,28 @@
 
 					if (movies.length === 0) {
 						return $http
-    					.jsonp('http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?callback=JSON_CALLBACK&apikey=723yhcv78vu2ut757tp63yjg')
-    					.success(function(data) {
-    						/*
-    						 * let's check to see if there are any saved movies.
-    						 * if there are, we'll want to indicate that the movie
-    						 * has been saved
-    						 */
-    						savedMovies = getSavedMovies();
+	    					.jsonp('http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?callback=JSON_CALLBACK&apikey=723yhcv78vu2ut757tp63yjg')
+	    					.success(function(data) {
+	    						/*
+	    						 * let's check to see if there are any saved movies.
+	    						 * if there are, we'll want to indicate that the movie
+	    						 * has been saved
+	    						 */
+	    						savedMovies = getSavedMovies();
 
-    						if (savedMovies.length > 0) {
-	    						angular.forEach(data.movies, function(movie) {
-	    							angular.forEach(savedMovies, function(savedMovie) {
-	    								if (movie.title === savedMovie.title) {
-	    									movie.saved = true;
-	    								}
-	    							});
-	    						});
-    						}
+	    						if (savedMovies.length > 0) {
+		    						angular.forEach(data.movies, function(movie) {
+		    							angular.forEach(savedMovies, function(savedMovie) {
+		    								if (movie.title === savedMovie.title) {
+		    									movie.saved = true;
+		    								}
+		    							});
+		    						});
+	    						}
 
-    						movies = data;
-    						return movies;
-    					});
+	    						movies = data;
+	    						return movies;
+	    					});
 					}
 
 					deferred.resolve({
