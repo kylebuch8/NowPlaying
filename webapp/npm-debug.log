@@ -1,0 +1,1266 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'phonegap' ]
+2 info using npm@1.2.10
+3 info using node@v0.8.19
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'phonegap', null ]
+7 verbose cache add name=undefined spec="phonegap" args=["phonegap",null]
+8 verbose parsed url { pathname: 'phonegap', path: 'phonegap', href: 'phonegap' }
+9 silly lockFile 10db903f-phonegap phonegap
+10 verbose lock phonegap /Users/kylebuchanan/.npm/10db903f-phonegap.lock
+11 silly lockFile 10db903f-phonegap phonegap
+12 silly lockFile 10db903f-phonegap phonegap
+13 verbose addNamed [ 'phonegap', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 3a6257f3-phonegap phonegap@
+16 verbose lock phonegap@ /Users/kylebuchanan/.npm/3a6257f3-phonegap.lock
+17 silly addNameRange { name: 'phonegap', range: '', hasData: false }
+18 verbose url raw phonegap
+19 verbose url resolving [ 'https://registry.npmjs.org/', './phonegap' ]
+20 verbose url resolved https://registry.npmjs.org/phonegap
+21 info trying registry request attempt 1 at 21:20:54
+22 verbose etag "4FVZ9NLMOTSFSKLZIBKTO4CYI"
+23 http GET https://registry.npmjs.org/phonegap
+24 http 304 https://registry.npmjs.org/phonegap
+25 silly registry.get cb [ 304,
+25 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+25 silly registry.get     etag: '"4FVZ9NLMOTSFSKLZIBKTO4CYI"',
+25 silly registry.get     date: 'Mon, 07 Oct 2013 01:20:55 GMT',
+25 silly registry.get     'content-length': '0' } ]
+26 verbose etag phonegap from cache
+27 silly addNameRange number 2 { name: 'phonegap', range: '', hasData: true }
+28 silly addNameRange versions [ 'phonegap',
+28 silly addNameRange   [ '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.7.3',
+28 silly addNameRange     '0.7.4',
+28 silly addNameRange     '0.7.5',
+28 silly addNameRange     '0.7.6',
+28 silly addNameRange     '0.7.7',
+28 silly addNameRange     '0.7.8',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.8.1',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '0.9.2',
+28 silly addNameRange     '0.9.3',
+28 silly addNameRange     '0.9.4',
+28 silly addNameRange     '2.8.0-0.10.0',
+28 silly addNameRange     '2.8.0-0.10.1',
+28 silly addNameRange     '2.8.0-0.10.2',
+28 silly addNameRange     '2.8.0-0.10.3',
+28 silly addNameRange     '2.8.0-0.10.4',
+28 silly addNameRange     '2.8.0-0.10.6',
+28 silly addNameRange     '2.8.1-0.11.0',
+28 silly addNameRange     '2.9.0-rc1-0.12.0' ] ]
+29 verbose addNamed [ 'phonegap', '2.9.0-rc1-0.12.0' ]
+30 verbose addNamed [ '2.9.0-rc1-0.12.0', '2.9.0-rc1-0.12.0' ]
+31 silly lockFile aba9fc1b-phonegap-2-9-0-rc1-0-12-0 phonegap@2.9.0-rc1-0.12.0
+32 verbose lock phonegap@2.9.0-rc1-0.12.0 /Users/kylebuchanan/.npm/aba9fc1b-phonegap-2-9-0-rc1-0-12-0.lock
+33 silly lockFile f8c176b9-gap-phonegap-2-9-0rc1-0-12-0-tgz https://registry.npmjs.org/phonegap/-/phonegap-2.9.0rc1-0.12.0.tgz
+34 verbose lock https://registry.npmjs.org/phonegap/-/phonegap-2.9.0rc1-0.12.0.tgz /Users/kylebuchanan/.npm/f8c176b9-gap-phonegap-2-9-0rc1-0-12-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/phonegap/-/phonegap-2.9.0rc1-0.12.0.tgz',
+35 verbose addRemoteTarball   '5f1dce6d40651a33792d29813f6c5dc892854f38' ]
+36 info retry fetch attempt 1 at 21:20:54
+37 verbose fetch to= /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/tmp.tgz
+38 http GET https://registry.npmjs.org/phonegap/-/phonegap-2.9.0rc1-0.12.0.tgz
+39 http 200 https://registry.npmjs.org/phonegap/-/phonegap-2.9.0rc1-0.12.0.tgz
+40 silly shasum updated bytes 30714
+41 info shasum 5f1dce6d40651a33792d29813f6c5dc892854f38
+41 info shasum /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/tmp.tgz
+42 verbose tar unpack /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/tmp.tgz
+43 silly lockFile 5a0f63e3-54749-0-4316185025963932-package /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package
+44 verbose lock /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package /Users/kylebuchanan/.npm/5a0f63e3-54749-0-4316185025963932-package.lock
+45 silly lockFile 742bdabc-54749-0-4316185025963932-tmp-tgz /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/tmp.tgz
+46 verbose lock /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/tmp.tgz /Users/kylebuchanan/.npm/742bdabc-54749-0-4316185025963932-tmp-tgz.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry .npmignore
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry LICENSE
+52 silly gunzTarPerm extractEntry COPYRIGHT
+53 silly gunzTarPerm extractEntry NOTICE
+54 silly gunzTarPerm extractEntry .travis.yml
+55 silly gunzTarPerm extractEntry bin/phonegap.js
+56 silly gunzTarPerm extractEntry doc/cli/help.remote.build.txt
+57 silly gunzTarPerm extractEntry doc/cli/help.app.txt
+58 silly gunzTarPerm extractEntry doc/cli/help.create.txt
+59 silly gunzTarPerm extractEntry doc/cli/help.install.txt
+60 silly gunzTarPerm extractEntry doc/cli/help.local.build.txt
+61 silly gunzTarPerm extractEntry doc/cli/help.local.install.txt
+62 silly gunzTarPerm extractEntry doc/cli/help.local.run.txt
+63 silly gunzTarPerm extractEntry doc/cli/help.local.txt
+64 silly gunzTarPerm extractEntry doc/cli/help.build.txt
+65 silly gunzTarPerm extractEntry doc/cli/help.remote.install.txt
+66 silly gunzTarPerm extractEntry doc/cli/help.remote.login.txt
+67 silly gunzTarPerm extractEntry doc/cli/help.remote.logout.txt
+68 silly gunzTarPerm extractEntry doc/cli/help.remote.run.txt
+69 silly gunzTarPerm extractEntry doc/cli/help.remote.txt
+70 silly gunzTarPerm extractEntry doc/cli/help.run.txt
+71 silly gunzTarPerm extractEntry doc/cli/help.txt
+72 silly gunzTarPerm extractEntry lib/cli.js
+73 silly gunzTarPerm extractEntry lib/main.js
+74 silly gunzTarPerm extractEntry lib/phonegap.js
+75 silly gunzTarPerm extractEntry lib/cli/app.js
+76 silly gunzTarPerm extractEntry lib/cli/local.build.js
+77 silly gunzTarPerm extractEntry lib/cli/local.install.js
+78 silly gunzTarPerm extractEntry lib/cli/local.js
+79 silly gunzTarPerm extractEntry lib/cli/install.js
+80 silly gunzTarPerm extractEntry lib/cli/argv.js
+81 silly gunzTarPerm extractEntry lib/cli/remote.install.js
+82 silly gunzTarPerm extractEntry lib/cli/remote.js
+83 silly gunzTarPerm extractEntry lib/cli/remote.login.js
+84 silly gunzTarPerm extractEntry lib/cli/remote.logout.js
+85 silly gunzTarPerm extractEntry lib/cli/help.js
+86 silly gunzTarPerm extractEntry lib/cli/remote.run.js
+87 silly gunzTarPerm extractEntry lib/cli/create.js
+88 silly gunzTarPerm extractEntry lib/cli/run.js
+89 silly gunzTarPerm extractEntry lib/cli/build.js
+90 silly gunzTarPerm extractEntry lib/cli/unknown.js
+91 silly gunzTarPerm extractEntry lib/cli/local.run.js
+92 silly gunzTarPerm extractEntry lib/cli/version.js
+93 silly gunzTarPerm extractEntry lib/cli/remote.build.js
+94 silly gunzTarPerm extractEntry lib/cli/util/console.js
+95 silly gunzTarPerm extractEntry lib/common/config.js
+96 silly gunzTarPerm extractEntry lib/common/config/global.js
+97 silly gunzTarPerm extractEntry lib/common/config/local.js
+98 silly gunzTarPerm extractEntry lib/phonegap/app.js
+99 silly gunzTarPerm extractEntry lib/phonegap/install.js
+100 silly gunzTarPerm extractEntry lib/phonegap/local.build.js
+101 silly gunzTarPerm extractEntry lib/phonegap/local.install.js
+102 silly gunzTarPerm extractEntry lib/phonegap/local.run.js
+103 silly gunzTarPerm extractEntry lib/phonegap/create.js
+104 silly gunzTarPerm extractEntry lib/phonegap/remote.install.js
+105 silly gunzTarPerm extractEntry lib/phonegap/remote.login.js
+106 silly gunzTarPerm extractEntry lib/phonegap/remote.logout.js
+107 silly gunzTarPerm extractEntry lib/phonegap/remote.run.js
+108 silly gunzTarPerm extractEntry lib/phonegap/run.js
+109 silly gunzTarPerm extractEntry lib/phonegap/build.js
+110 silly gunzTarPerm extractEntry lib/phonegap/version.js
+111 silly gunzTarPerm extractEntry lib/phonegap/remote.build.js
+112 silly gunzTarPerm extractEntry lib/phonegap/util/command.js
+113 silly gunzTarPerm extractEntry lib/phonegap/util/phonegap-build.js
+114 silly gunzTarPerm extractEntry lib/phonegap/util/platform.js
+115 silly gunzTarPerm extractEntry lib/phonegap/util/project.js
+116 silly gunzTarPerm extractEntry CONTRIBUTING.md
+117 silly gunzTarPerm extractEntry spec/cli.spec.js
+118 silly gunzTarPerm extractEntry spec/main.spec.js
+119 silly gunzTarPerm extractEntry spec/phonegap.spec.js
+120 silly gunzTarPerm extractEntry spec/cli/app.spec.js
+121 silly gunzTarPerm extractEntry spec/cli/local.build.spec.js
+122 silly gunzTarPerm extractEntry spec/cli/local.install.spec.js
+123 silly gunzTarPerm extractEntry spec/cli/local.run.spec.js
+124 silly gunzTarPerm extractEntry spec/cli/local.spec.js
+125 silly gunzTarPerm extractEntry spec/cli/install.spec.js
+126 silly gunzTarPerm extractEntry spec/cli/remote.install.spec.js
+127 silly gunzTarPerm extractEntry spec/cli/remote.login.spec.js
+128 silly gunzTarPerm extractEntry spec/cli/remote.logout.spec.js
+129 silly gunzTarPerm extractEntry spec/cli/remote.run.spec.js
+130 silly gunzTarPerm extractEntry spec/cli/remote.spec.js
+131 silly gunzTarPerm extractEntry spec/cli/help.spec.js
+132 silly gunzTarPerm extractEntry spec/cli/run.spec.js
+133 silly gunzTarPerm extractEntry spec/cli/create.spec.js
+134 silly gunzTarPerm extractEntry spec/cli/unknown.spec.js
+135 silly gunzTarPerm extractEntry spec/cli/build.spec.js
+136 silly gunzTarPerm extractEntry spec/cli/version.spec.js
+137 silly gunzTarPerm extractEntry spec/cli/remote.build.spec.js
+138 silly gunzTarPerm extractEntry spec/common/config/global.spec.js
+139 silly gunzTarPerm extractEntry spec/common/config/local.spec.js
+140 silly gunzTarPerm extractEntry spec/phonegap/app.spec.js
+141 silly gunzTarPerm extractEntry spec/phonegap/install.spec.js
+142 silly gunzTarPerm extractEntry spec/phonegap/local.build.spec.js
+143 silly gunzTarPerm extractEntry spec/phonegap/local.install.spec.js
+144 silly gunzTarPerm extractEntry spec/phonegap/local.run.spec.js
+145 silly gunzTarPerm extractEntry spec/phonegap/create.spec.js
+146 silly gunzTarPerm extractEntry spec/phonegap/remote.install.spec.js
+147 silly gunzTarPerm extractEntry spec/phonegap/remote.login.spec.js
+148 silly gunzTarPerm extractEntry spec/phonegap/remote.logout.spec.js
+149 silly gunzTarPerm extractEntry spec/phonegap/remote.run.spec.js
+150 silly gunzTarPerm extractEntry spec/phonegap/run.spec.js
+151 silly gunzTarPerm extractEntry spec/phonegap/build.spec.js
+152 silly gunzTarPerm extractEntry spec/phonegap/version.spec.js
+153 silly gunzTarPerm extractEntry spec/phonegap/remote.build.spec.js
+154 silly gunzTarPerm extractEntry spec/phonegap/util/platform.spec.js
+155 silly gunzTarPerm extractEntry spec/phonegap/util/project.spec.js
+156 verbose read json /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package/package.json
+157 silly lockFile 5a0f63e3-54749-0-4316185025963932-package /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package
+158 silly lockFile 5a0f63e3-54749-0-4316185025963932-package /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package
+159 silly lockFile 742bdabc-54749-0-4316185025963932-tmp-tgz /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/tmp.tgz
+160 silly lockFile 742bdabc-54749-0-4316185025963932-tmp-tgz /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/tmp.tgz
+161 verbose from cache /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package/package.json
+162 verbose tar pack [ '/Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz',
+162 verbose tar pack   '/Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package' ]
+163 verbose tarball /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+164 verbose folder /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package
+165 silly lockFile 5a0f63e3-54749-0-4316185025963932-package /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package
+166 verbose lock /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package /Users/kylebuchanan/.npm/5a0f63e3-54749-0-4316185025963932-package.lock
+167 silly lockFile ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+168 verbose lock /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz /Users/kylebuchanan/.npm/ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz.lock
+169 silly lockFile 5a0f63e3-54749-0-4316185025963932-package /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package
+170 silly lockFile 5a0f63e3-54749-0-4316185025963932-package /Users/kylebuchanan/tmp/npm-56168/1381108854749-0.4316185025963932/package
+171 silly lockFile ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+172 silly lockFile ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+173 silly lockFile 97175e9b-phonegap-2-9-0rc1-0-12-0-package /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package
+174 verbose lock /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package /Users/kylebuchanan/.npm/97175e9b-phonegap-2-9-0rc1-0-12-0-package.lock
+175 silly lockFile 97175e9b-phonegap-2-9-0rc1-0-12-0-package /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package
+176 silly lockFile 97175e9b-phonegap-2-9-0rc1-0-12-0-package /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package
+177 verbose tar unpack /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+178 silly lockFile 97175e9b-phonegap-2-9-0rc1-0-12-0-package /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package
+179 verbose lock /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package /Users/kylebuchanan/.npm/97175e9b-phonegap-2-9-0rc1-0-12-0-package.lock
+180 silly lockFile ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+181 verbose lock /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz /Users/kylebuchanan/.npm/ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz.lock
+182 silly gunzTarPerm modes [ '755', '644' ]
+183 silly gunzTarPerm extractEntry package.json
+184 silly gunzTarPerm extractEntry .npmignore
+185 silly gunzTarPerm extractEntry README.md
+186 silly gunzTarPerm extractEntry LICENSE
+187 silly gunzTarPerm extractEntry COPYRIGHT
+188 silly gunzTarPerm extractEntry doc/cli/help.remote.build.txt
+189 silly gunzTarPerm extractEntry doc/cli/help.app.txt
+190 silly gunzTarPerm extractEntry doc/cli/help.create.txt
+191 silly gunzTarPerm extractEntry doc/cli/help.install.txt
+192 silly gunzTarPerm extractEntry doc/cli/help.local.build.txt
+193 silly gunzTarPerm extractEntry doc/cli/help.local.install.txt
+194 silly gunzTarPerm extractEntry doc/cli/help.local.run.txt
+195 silly gunzTarPerm extractEntry doc/cli/help.local.txt
+196 silly gunzTarPerm extractEntry doc/cli/help.build.txt
+197 silly gunzTarPerm extractEntry doc/cli/help.remote.install.txt
+198 silly gunzTarPerm extractEntry doc/cli/help.remote.login.txt
+199 silly gunzTarPerm extractEntry doc/cli/help.remote.logout.txt
+200 silly gunzTarPerm extractEntry doc/cli/help.remote.run.txt
+201 silly gunzTarPerm extractEntry doc/cli/help.remote.txt
+202 silly gunzTarPerm extractEntry doc/cli/help.run.txt
+203 silly gunzTarPerm extractEntry doc/cli/help.txt
+204 silly gunzTarPerm extractEntry .travis.yml
+205 silly gunzTarPerm extractEntry spec/cli.spec.js
+206 silly gunzTarPerm extractEntry spec/main.spec.js
+207 silly gunzTarPerm extractEntry spec/phonegap.spec.js
+208 silly gunzTarPerm extractEntry spec/cli/app.spec.js
+209 silly gunzTarPerm extractEntry spec/cli/local.build.spec.js
+210 silly gunzTarPerm extractEntry spec/cli/local.install.spec.js
+211 silly gunzTarPerm extractEntry spec/cli/local.run.spec.js
+212 silly gunzTarPerm extractEntry spec/cli/local.spec.js
+213 silly gunzTarPerm extractEntry spec/cli/install.spec.js
+214 silly gunzTarPerm extractEntry spec/cli/remote.install.spec.js
+215 silly gunzTarPerm extractEntry spec/cli/remote.login.spec.js
+216 silly gunzTarPerm extractEntry spec/cli/remote.logout.spec.js
+217 silly gunzTarPerm extractEntry spec/cli/remote.run.spec.js
+218 silly gunzTarPerm extractEntry spec/cli/remote.spec.js
+219 silly gunzTarPerm extractEntry spec/cli/help.spec.js
+220 silly gunzTarPerm extractEntry spec/cli/run.spec.js
+221 silly gunzTarPerm extractEntry spec/cli/create.spec.js
+222 silly gunzTarPerm extractEntry spec/cli/unknown.spec.js
+223 silly gunzTarPerm extractEntry spec/cli/build.spec.js
+224 silly gunzTarPerm extractEntry spec/cli/version.spec.js
+225 silly gunzTarPerm extractEntry spec/cli/remote.build.spec.js
+226 silly gunzTarPerm extractEntry spec/common/config/global.spec.js
+227 silly gunzTarPerm extractEntry spec/common/config/local.spec.js
+228 silly gunzTarPerm extractEntry spec/phonegap/app.spec.js
+229 silly gunzTarPerm extractEntry spec/phonegap/install.spec.js
+230 silly gunzTarPerm extractEntry spec/phonegap/local.build.spec.js
+231 silly gunzTarPerm extractEntry spec/phonegap/local.install.spec.js
+232 silly gunzTarPerm extractEntry spec/phonegap/local.run.spec.js
+233 silly gunzTarPerm extractEntry spec/phonegap/create.spec.js
+234 silly gunzTarPerm extractEntry spec/phonegap/remote.install.spec.js
+235 silly gunzTarPerm extractEntry spec/phonegap/remote.login.spec.js
+236 silly gunzTarPerm extractEntry spec/phonegap/remote.logout.spec.js
+237 silly gunzTarPerm extractEntry spec/phonegap/remote.run.spec.js
+238 silly gunzTarPerm extractEntry spec/phonegap/run.spec.js
+239 silly gunzTarPerm extractEntry spec/phonegap/build.spec.js
+240 silly gunzTarPerm extractEntry spec/phonegap/version.spec.js
+241 silly gunzTarPerm extractEntry spec/phonegap/remote.build.spec.js
+242 silly gunzTarPerm extractEntry spec/phonegap/util/platform.spec.js
+243 silly gunzTarPerm extractEntry spec/phonegap/util/project.spec.js
+244 silly gunzTarPerm extractEntry NOTICE
+245 silly gunzTarPerm extractEntry bin/phonegap.js
+246 silly gunzTarPerm extractEntry CONTRIBUTING.md
+247 silly gunzTarPerm extractEntry lib/cli.js
+248 silly gunzTarPerm extractEntry lib/main.js
+249 silly gunzTarPerm extractEntry lib/phonegap.js
+250 silly gunzTarPerm extractEntry lib/cli/app.js
+251 silly gunzTarPerm extractEntry lib/cli/local.build.js
+252 silly gunzTarPerm extractEntry lib/cli/local.install.js
+253 silly gunzTarPerm extractEntry lib/cli/local.js
+254 silly gunzTarPerm extractEntry lib/cli/install.js
+255 silly gunzTarPerm extractEntry lib/cli/argv.js
+256 silly gunzTarPerm extractEntry lib/cli/remote.install.js
+257 silly gunzTarPerm extractEntry lib/cli/remote.js
+258 silly gunzTarPerm extractEntry lib/cli/remote.login.js
+259 silly gunzTarPerm extractEntry lib/cli/remote.logout.js
+260 silly gunzTarPerm extractEntry lib/cli/help.js
+261 silly gunzTarPerm extractEntry lib/cli/remote.run.js
+262 silly gunzTarPerm extractEntry lib/cli/create.js
+263 silly gunzTarPerm extractEntry lib/cli/run.js
+264 silly gunzTarPerm extractEntry lib/cli/build.js
+265 silly gunzTarPerm extractEntry lib/cli/unknown.js
+266 silly gunzTarPerm extractEntry lib/cli/local.run.js
+267 silly gunzTarPerm extractEntry lib/cli/version.js
+268 silly gunzTarPerm extractEntry lib/cli/remote.build.js
+269 silly gunzTarPerm extractEntry lib/cli/util/console.js
+270 silly gunzTarPerm extractEntry lib/common/config.js
+271 silly gunzTarPerm extractEntry lib/common/config/global.js
+272 silly gunzTarPerm extractEntry lib/common/config/local.js
+273 silly gunzTarPerm extractEntry lib/phonegap/app.js
+274 silly gunzTarPerm extractEntry lib/phonegap/install.js
+275 silly gunzTarPerm extractEntry lib/phonegap/local.build.js
+276 silly gunzTarPerm extractEntry lib/phonegap/local.install.js
+277 silly gunzTarPerm extractEntry lib/phonegap/local.run.js
+278 silly gunzTarPerm extractEntry lib/phonegap/create.js
+279 silly gunzTarPerm extractEntry lib/phonegap/remote.install.js
+280 silly gunzTarPerm extractEntry lib/phonegap/remote.login.js
+281 silly gunzTarPerm extractEntry lib/phonegap/remote.logout.js
+282 silly gunzTarPerm extractEntry lib/phonegap/remote.run.js
+283 silly gunzTarPerm extractEntry lib/phonegap/run.js
+284 silly gunzTarPerm extractEntry lib/phonegap/build.js
+285 silly gunzTarPerm extractEntry lib/phonegap/version.js
+286 silly gunzTarPerm extractEntry lib/phonegap/remote.build.js
+287 silly gunzTarPerm extractEntry lib/phonegap/util/command.js
+288 silly gunzTarPerm extractEntry lib/phonegap/util/phonegap-build.js
+289 silly gunzTarPerm extractEntry lib/phonegap/util/platform.js
+290 silly gunzTarPerm extractEntry lib/phonegap/util/project.js
+291 verbose read json /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package/package.json
+292 silly lockFile 97175e9b-phonegap-2-9-0rc1-0-12-0-package /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package
+293 silly lockFile 97175e9b-phonegap-2-9-0rc1-0-12-0-package /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package
+294 silly lockFile ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+295 silly lockFile ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+296 silly shasum updated bytes 30920
+297 info shasum 680d453b125ab7a53be74294c51691016a5cb206
+297 info shasum /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+298 verbose from cache /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package/package.json
+299 verbose chmod /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz 644
+300 verbose chown /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz [ 501, 20 ]
+301 silly lockFile f8c176b9-gap-phonegap-2-9-0rc1-0-12-0-tgz https://registry.npmjs.org/phonegap/-/phonegap-2.9.0rc1-0.12.0.tgz
+302 silly lockFile f8c176b9-gap-phonegap-2-9-0rc1-0-12-0-tgz https://registry.npmjs.org/phonegap/-/phonegap-2.9.0rc1-0.12.0.tgz
+303 silly lockFile aba9fc1b-phonegap-2-9-0-rc1-0-12-0 phonegap@2.9.0-rc1-0.12.0
+304 silly lockFile aba9fc1b-phonegap-2-9-0-rc1-0-12-0 phonegap@2.9.0-rc1-0.12.0
+305 silly lockFile 3a6257f3-phonegap phonegap@
+306 silly lockFile 3a6257f3-phonegap phonegap@
+307 silly resolved [ { name: 'phonegap',
+307 silly resolved     description: 'PhoneGap command-line interface and node.js library.',
+307 silly resolved     version: '2.9.0rc1-0.12.0',
+307 silly resolved     homepage: 'http://github.com/mwbrooks/phonegap-cli',
+307 silly resolved     repository:
+307 silly resolved      { type: 'git',
+307 silly resolved        url: 'git://github.com/mwbrooks/phonegap-cli.git' },
+307 silly resolved     keywords:
+307 silly resolved      [ 'cli',
+307 silly resolved        'cordova',
+307 silly resolved        'phonegap',
+307 silly resolved        'phonegap build',
+307 silly resolved        'phonegap/build' ],
+307 silly resolved     preferGlobal: 'true',
+307 silly resolved     main: './lib/main.js',
+307 silly resolved     bin: { phonegap: './bin/phonegap.js' },
+307 silly resolved     scripts: { test: 'jasmine-node --color --verbose spec' },
+307 silly resolved     engines: { node: '>=0.10.0' },
+307 silly resolved     dependencies:
+307 silly resolved      { colors: '0.6.x',
+307 silly resolved        cordova: '2.9.0rc1',
+307 silly resolved        'node-static': '0.6.x',
+307 silly resolved        optimist: '0.3.x',
+307 silly resolved        'phonegap-build': '0.8.0',
+307 silly resolved        prompt: '0.2.x',
+307 silly resolved        'qrcode-terminal': '0.9.x',
+307 silly resolved        semver: '1.1.0',
+307 silly resolved        shelljs: '0.0.x' },
+307 silly resolved     devDependencies: { 'jasmine-node': '1.8.0', chdir: '0.0.x' },
+307 silly resolved     optionalDependencies: {},
+307 silly resolved     author:
+307 silly resolved      { name: 'Michael Brooks',
+307 silly resolved        email: 'michael@michaelbrooks.ca',
+307 silly resolved        url: 'http://michaelbrooks.ca/' },
+307 silly resolved     contributors: [],
+307 silly resolved     readme: '# PhoneGap CLI [![Build Status][travis-ci-img]][travis-ci-url]\n\n> PhoneGap command-line interface and Node.js library.\n\n## Command-line\n\n### Install\n\n    $ npm install -g phonegap\n\n#### iOS Simulator Support\n\n[Install ios-sim](https://github.com/phonegap/ios-sim#installation) to deploy\napps to the iOS simulator.\n\n### Usage\n\n    Usage: phonegap [options] [commands]\n\n    Description:\n\n      PhoneGap command-line tool.\n\n    Commands:\n\n      create <path>        create a phonegap project\n      build <platform>     build a specific platform\n      install <platform>   install a specific platform\n      run <platform>       build and install a specific platform\n      local [command]      development on local system\n      remote [command]     development in cloud with phonegap/build\n      help [command]       output usage information\n      version              output version number\n\n    Options:\n\n      -v, --version        output version number\n      -h, --help           output usage information\n\n    Platforms:\n\n      android              target Android\n      blackberry           target BlackBerry 10\n      ios                  target iOS\n      wp7                  target Windows Phone 7\n      wp8                  target Windows Phone 8\n\n    Examples:\n\n      $ phonegap help create\n      $ phonegap help remote build\n      $ phonegap create path/to/my-app\n      $ phonegap remote build android\n\n#### Local Usage\n\n    Usage: phonegap local [command]\n\n    Description:\n\n      Executes the command on the local system.\n\n      This requires that platform SDK is correctly installed.\n\n    Commands:\n\n      build <platform>     build a specific platform\n      install <platform>   install a specific platform\n      run <platform>       build and install a specific platform\n\n    Examples:\n\n      $ phonegap local build android\n      $ phonegap local run android\n\n#### Remote Usage\n\n    Usage: phonegap remote [command]\n\n    Description:\n\n      Executes the command remotely using the cloud-based PhoneGap/Build service.\n\n    Commands:\n\n      login                login to PhoneGap/Build\n      logout               logout of PhoneGap/Build\n      build <platform>     build a specific platform\n      install <platform>   install a specific platform\n      run <platform>       build and install a specific platform\n\n    Examples:\n\n      $ phonegap remote login\n      $ phonegap remote build android\n      $ phonegap remote run android\n\n## Node Library\n\n### Usage\n\n    var phonegap = require(\'phonegap\');\n\n## Related Projects\n\n- [phonegap-app-site](https://github.com/nitobi/phonegap-app-site)\n- [phonegap-app](https://github.com/mwbrooks/phonegap-app)\n- [phonegap-build-cli](https://github.com/mwbrooks/phonegap-build-cli)\n\n[travis-ci-img]: https://secure.travis-ci.org/mwbrooks/phonegap-cli.png\n[travis-ci-url]: http://travis-ci.org/mwbrooks/phonegap-cli\n\n',
+307 silly resolved     readmeFilename: 'README.md',
+307 silly resolved     _id: 'phonegap@2.9.0rc1-0.12.0',
+307 silly resolved     dist: { shasum: '680d453b125ab7a53be74294c51691016a5cb206' },
+307 silly resolved     _from: 'phonegap@',
+307 silly resolved     _resolved: 'https://registry.npmjs.org/phonegap/-/phonegap-2.9.0rc1-0.12.0.tgz' } ]
+308 info install phonegap@2.9.0rc1-0.12.0 into /usr/local/lib
+309 info installOne phonegap@2.9.0rc1-0.12.0
+310 warn engine phonegap@2.9.0rc1-0.12.0: wanted: {"node":">=0.10.0"} (current: {"node":"v0.8.19","npm":"1.2.10"})
+311 verbose from cache /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package/package.json
+312 info /usr/local/lib/node_modules/phonegap unbuild
+313 verbose read json /usr/local/lib/node_modules/phonegap/package.json
+314 verbose tar unpack /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+315 silly lockFile e2bb9ce4--local-lib-node-modules-phonegap /usr/local/lib/node_modules/phonegap
+316 verbose lock /usr/local/lib/node_modules/phonegap /Users/kylebuchanan/.npm/e2bb9ce4--local-lib-node-modules-phonegap.lock
+317 silly lockFile ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+318 verbose lock /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz /Users/kylebuchanan/.npm/ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz.lock
+319 silly gunzTarPerm modes [ '755', '644' ]
+320 silly gunzTarPerm extractEntry package.json
+321 silly gunzTarPerm extractEntry .npmignore
+322 silly gunzTarPerm extractEntry README.md
+323 silly gunzTarPerm extractEntry LICENSE
+324 silly gunzTarPerm extractEntry COPYRIGHT
+325 silly gunzTarPerm extractEntry doc/cli/help.remote.build.txt
+326 silly gunzTarPerm extractEntry doc/cli/help.app.txt
+327 silly gunzTarPerm extractEntry doc/cli/help.create.txt
+328 silly gunzTarPerm extractEntry doc/cli/help.install.txt
+329 silly gunzTarPerm extractEntry doc/cli/help.local.build.txt
+330 silly gunzTarPerm extractEntry doc/cli/help.local.install.txt
+331 silly gunzTarPerm extractEntry doc/cli/help.local.run.txt
+332 silly gunzTarPerm extractEntry doc/cli/help.local.txt
+333 silly gunzTarPerm extractEntry doc/cli/help.build.txt
+334 silly gunzTarPerm extractEntry doc/cli/help.remote.install.txt
+335 silly gunzTarPerm extractEntry doc/cli/help.remote.login.txt
+336 silly gunzTarPerm extractEntry doc/cli/help.remote.logout.txt
+337 silly gunzTarPerm extractEntry doc/cli/help.remote.run.txt
+338 silly gunzTarPerm extractEntry doc/cli/help.remote.txt
+339 silly gunzTarPerm extractEntry doc/cli/help.run.txt
+340 silly gunzTarPerm extractEntry doc/cli/help.txt
+341 silly gunzTarPerm extractEntry .travis.yml
+342 silly gunzTarPerm extractEntry spec/cli.spec.js
+343 silly gunzTarPerm extractEntry spec/main.spec.js
+344 silly gunzTarPerm extractEntry spec/phonegap.spec.js
+345 silly gunzTarPerm extractEntry spec/cli/app.spec.js
+346 silly gunzTarPerm extractEntry spec/cli/local.build.spec.js
+347 silly gunzTarPerm extractEntry spec/cli/local.install.spec.js
+348 silly gunzTarPerm extractEntry spec/cli/local.run.spec.js
+349 silly gunzTarPerm extractEntry spec/cli/local.spec.js
+350 silly gunzTarPerm extractEntry spec/cli/install.spec.js
+351 silly gunzTarPerm extractEntry spec/cli/remote.install.spec.js
+352 silly gunzTarPerm extractEntry spec/cli/remote.login.spec.js
+353 silly gunzTarPerm extractEntry spec/cli/remote.logout.spec.js
+354 silly gunzTarPerm extractEntry spec/cli/remote.run.spec.js
+355 silly gunzTarPerm extractEntry spec/cli/remote.spec.js
+356 silly gunzTarPerm extractEntry spec/cli/help.spec.js
+357 silly gunzTarPerm extractEntry spec/cli/run.spec.js
+358 silly gunzTarPerm extractEntry spec/cli/create.spec.js
+359 silly gunzTarPerm extractEntry spec/cli/unknown.spec.js
+360 silly gunzTarPerm extractEntry spec/cli/build.spec.js
+361 silly gunzTarPerm extractEntry spec/cli/version.spec.js
+362 silly gunzTarPerm extractEntry spec/cli/remote.build.spec.js
+363 silly gunzTarPerm extractEntry spec/common/config/global.spec.js
+364 silly gunzTarPerm extractEntry spec/common/config/local.spec.js
+365 silly gunzTarPerm extractEntry spec/phonegap/app.spec.js
+366 silly gunzTarPerm extractEntry spec/phonegap/install.spec.js
+367 silly gunzTarPerm extractEntry spec/phonegap/local.build.spec.js
+368 silly gunzTarPerm extractEntry spec/phonegap/local.install.spec.js
+369 silly gunzTarPerm extractEntry spec/phonegap/local.run.spec.js
+370 silly gunzTarPerm extractEntry spec/phonegap/create.spec.js
+371 silly gunzTarPerm extractEntry spec/phonegap/remote.install.spec.js
+372 silly gunzTarPerm extractEntry spec/phonegap/remote.login.spec.js
+373 silly gunzTarPerm extractEntry spec/phonegap/remote.logout.spec.js
+374 silly gunzTarPerm extractEntry spec/phonegap/remote.run.spec.js
+375 silly gunzTarPerm extractEntry spec/phonegap/run.spec.js
+376 silly gunzTarPerm extractEntry spec/phonegap/build.spec.js
+377 silly gunzTarPerm extractEntry spec/phonegap/version.spec.js
+378 silly gunzTarPerm extractEntry spec/phonegap/remote.build.spec.js
+379 silly gunzTarPerm extractEntry spec/phonegap/util/platform.spec.js
+380 silly gunzTarPerm extractEntry spec/phonegap/util/project.spec.js
+381 silly gunzTarPerm extractEntry NOTICE
+382 silly gunzTarPerm extractEntry bin/phonegap.js
+383 silly gunzTarPerm extractEntry CONTRIBUTING.md
+384 silly gunzTarPerm extractEntry lib/cli.js
+385 silly gunzTarPerm extractEntry lib/main.js
+386 silly gunzTarPerm extractEntry lib/phonegap.js
+387 silly gunzTarPerm extractEntry lib/cli/app.js
+388 silly gunzTarPerm extractEntry lib/cli/local.build.js
+389 silly gunzTarPerm extractEntry lib/cli/local.install.js
+390 silly gunzTarPerm extractEntry lib/cli/local.js
+391 silly gunzTarPerm extractEntry lib/cli/install.js
+392 silly gunzTarPerm extractEntry lib/cli/argv.js
+393 silly gunzTarPerm extractEntry lib/cli/remote.install.js
+394 silly gunzTarPerm extractEntry lib/cli/remote.js
+395 silly gunzTarPerm extractEntry lib/cli/remote.login.js
+396 silly gunzTarPerm extractEntry lib/cli/remote.logout.js
+397 silly gunzTarPerm extractEntry lib/cli/help.js
+398 silly gunzTarPerm extractEntry lib/cli/remote.run.js
+399 silly gunzTarPerm extractEntry lib/cli/create.js
+400 silly gunzTarPerm extractEntry lib/cli/run.js
+401 silly gunzTarPerm extractEntry lib/cli/build.js
+402 silly gunzTarPerm extractEntry lib/cli/unknown.js
+403 silly gunzTarPerm extractEntry lib/cli/local.run.js
+404 silly gunzTarPerm extractEntry lib/cli/version.js
+405 silly gunzTarPerm extractEntry lib/cli/remote.build.js
+406 silly gunzTarPerm extractEntry lib/cli/util/console.js
+407 silly gunzTarPerm extractEntry lib/common/config.js
+408 silly gunzTarPerm extractEntry lib/common/config/global.js
+409 silly gunzTarPerm extractEntry lib/common/config/local.js
+410 silly gunzTarPerm extractEntry lib/phonegap/app.js
+411 silly gunzTarPerm extractEntry lib/phonegap/install.js
+412 silly gunzTarPerm extractEntry lib/phonegap/local.build.js
+413 silly gunzTarPerm extractEntry lib/phonegap/local.install.js
+414 silly gunzTarPerm extractEntry lib/phonegap/local.run.js
+415 silly gunzTarPerm extractEntry lib/phonegap/create.js
+416 silly gunzTarPerm extractEntry lib/phonegap/remote.install.js
+417 silly gunzTarPerm extractEntry lib/phonegap/remote.login.js
+418 silly gunzTarPerm extractEntry lib/phonegap/remote.logout.js
+419 silly gunzTarPerm extractEntry lib/phonegap/remote.run.js
+420 silly gunzTarPerm extractEntry lib/phonegap/run.js
+421 silly gunzTarPerm extractEntry lib/phonegap/build.js
+422 silly gunzTarPerm extractEntry lib/phonegap/version.js
+423 silly gunzTarPerm extractEntry lib/phonegap/remote.build.js
+424 silly gunzTarPerm extractEntry lib/phonegap/util/command.js
+425 silly gunzTarPerm extractEntry lib/phonegap/util/phonegap-build.js
+426 silly gunzTarPerm extractEntry lib/phonegap/util/platform.js
+427 silly gunzTarPerm extractEntry lib/phonegap/util/project.js
+428 verbose read json /usr/local/lib/node_modules/phonegap/package.json
+429 silly lockFile e2bb9ce4--local-lib-node-modules-phonegap /usr/local/lib/node_modules/phonegap
+430 silly lockFile e2bb9ce4--local-lib-node-modules-phonegap /usr/local/lib/node_modules/phonegap
+431 silly lockFile ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+432 silly lockFile ab4c7f85-egap-2-9-0rc1-0-12-0-package-tgz /Users/kylebuchanan/.npm/phonegap/2.9.0rc1-0.12.0/package.tgz
+433 info preinstall phonegap@2.9.0rc1-0.12.0
+434 verbose from cache /usr/local/lib/node_modules/phonegap/package.json
+435 verbose readDependencies using package.json deps
+436 verbose from cache /usr/local/lib/node_modules/phonegap/package.json
+437 verbose readDependencies using package.json deps
+438 verbose cache add [ 'colors@0.6.x', null ]
+439 verbose cache add name=undefined spec="colors@0.6.x" args=["colors@0.6.x",null]
+440 verbose parsed url { pathname: 'colors@0.6.x',
+440 verbose parsed url   path: 'colors@0.6.x',
+440 verbose parsed url   href: 'colors@0.6.x' }
+441 verbose cache add name="colors" spec="0.6.x" args=["colors","0.6.x"]
+442 verbose parsed url { pathname: '0.6.x', path: '0.6.x', href: '0.6.x' }
+443 verbose addNamed [ 'colors', '0.6.x' ]
+444 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+445 silly lockFile 65d14de3-colors-0-6-x colors@0.6.x
+446 verbose lock colors@0.6.x /Users/kylebuchanan/.npm/65d14de3-colors-0-6-x.lock
+447 verbose cache add [ 'cordova@2.9.0rc1', null ]
+448 verbose cache add name=undefined spec="cordova@2.9.0rc1" args=["cordova@2.9.0rc1",null]
+449 verbose parsed url { pathname: 'cordova@2.9.0rc1',
+449 verbose parsed url   path: 'cordova@2.9.0rc1',
+449 verbose parsed url   href: 'cordova@2.9.0rc1' }
+450 verbose cache add name="cordova" spec="2.9.0rc1" args=["cordova","2.9.0rc1"]
+451 verbose parsed url { pathname: '2.9.0rc1', path: '2.9.0rc1', href: '2.9.0rc1' }
+452 verbose addNamed [ 'cordova', '2.9.0rc1' ]
+453 verbose addNamed [ '2.9.0rc1', '2.9.0rc1' ]
+454 silly lockFile 21852a73-cordova-2-9-0rc1 cordova@2.9.0rc1
+455 verbose lock cordova@2.9.0rc1 /Users/kylebuchanan/.npm/21852a73-cordova-2-9-0rc1.lock
+456 silly addNameRange { name: 'colors', range: '>=0.6.0- <0.7.0-', hasData: false }
+457 verbose url raw colors
+458 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+459 verbose url resolved https://registry.npmjs.org/colors
+460 info trying registry request attempt 1 at 21:20:55
+461 verbose etag "6A8GBHDKZ62PGBI3M1NRGH6L7"
+462 http GET https://registry.npmjs.org/colors
+463 verbose url raw cordova/2.9.0rc1
+464 verbose url resolving [ 'https://registry.npmjs.org/', './cordova/2.9.0rc1' ]
+465 verbose url resolved https://registry.npmjs.org/cordova/2.9.0rc1
+466 info trying registry request attempt 1 at 21:20:55
+467 verbose etag "O6OSN7WDK639HVP0V5PT7KJ9"
+468 http GET https://registry.npmjs.org/cordova/2.9.0rc1
+469 verbose cache add [ 'node-static@0.6.x', null ]
+470 verbose cache add name=undefined spec="node-static@0.6.x" args=["node-static@0.6.x",null]
+471 verbose parsed url { pathname: 'node-static@0.6.x',
+471 verbose parsed url   path: 'node-static@0.6.x',
+471 verbose parsed url   href: 'node-static@0.6.x' }
+472 verbose cache add name="node-static" spec="0.6.x" args=["node-static","0.6.x"]
+473 verbose parsed url { pathname: '0.6.x', path: '0.6.x', href: '0.6.x' }
+474 verbose addNamed [ 'node-static', '0.6.x' ]
+475 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+476 silly lockFile 723c3f13-node-static-0-6-x node-static@0.6.x
+477 verbose lock node-static@0.6.x /Users/kylebuchanan/.npm/723c3f13-node-static-0-6-x.lock
+478 verbose cache add [ 'optimist@0.3.x', null ]
+479 verbose cache add name=undefined spec="optimist@0.3.x" args=["optimist@0.3.x",null]
+480 verbose parsed url { pathname: 'optimist@0.3.x',
+480 verbose parsed url   path: 'optimist@0.3.x',
+480 verbose parsed url   href: 'optimist@0.3.x' }
+481 verbose cache add name="optimist" spec="0.3.x" args=["optimist","0.3.x"]
+482 verbose parsed url { pathname: '0.3.x', path: '0.3.x', href: '0.3.x' }
+483 verbose addNamed [ 'optimist', '0.3.x' ]
+484 verbose addNamed [ null, '>=0.3.0- <0.4.0-' ]
+485 silly lockFile 3bb5ebed-optimist-0-3-x optimist@0.3.x
+486 verbose lock optimist@0.3.x /Users/kylebuchanan/.npm/3bb5ebed-optimist-0-3-x.lock
+487 verbose cache add [ 'phonegap-build@0.8.0', null ]
+488 verbose cache add name=undefined spec="phonegap-build@0.8.0" args=["phonegap-build@0.8.0",null]
+489 verbose parsed url { pathname: 'phonegap-build@0.8.0',
+489 verbose parsed url   path: 'phonegap-build@0.8.0',
+489 verbose parsed url   href: 'phonegap-build@0.8.0' }
+490 verbose cache add name="phonegap-build" spec="0.8.0" args=["phonegap-build","0.8.0"]
+491 verbose parsed url { pathname: '0.8.0', path: '0.8.0', href: '0.8.0' }
+492 verbose addNamed [ 'phonegap-build', '0.8.0' ]
+493 verbose addNamed [ '0.8.0', '0.8.0' ]
+494 silly lockFile 827b44b6-phonegap-build-0-8-0 phonegap-build@0.8.0
+495 verbose lock phonegap-build@0.8.0 /Users/kylebuchanan/.npm/827b44b6-phonegap-build-0-8-0.lock
+496 verbose cache add [ 'prompt@0.2.x', null ]
+497 verbose cache add name=undefined spec="prompt@0.2.x" args=["prompt@0.2.x",null]
+498 verbose parsed url { pathname: 'prompt@0.2.x',
+498 verbose parsed url   path: 'prompt@0.2.x',
+498 verbose parsed url   href: 'prompt@0.2.x' }
+499 verbose cache add name="prompt" spec="0.2.x" args=["prompt","0.2.x"]
+500 verbose parsed url { pathname: '0.2.x', path: '0.2.x', href: '0.2.x' }
+501 verbose addNamed [ 'prompt', '0.2.x' ]
+502 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+503 silly lockFile c16d6607-prompt-0-2-x prompt@0.2.x
+504 verbose lock prompt@0.2.x /Users/kylebuchanan/.npm/c16d6607-prompt-0-2-x.lock
+505 verbose cache add [ 'qrcode-terminal@0.9.x', null ]
+506 verbose cache add name=undefined spec="qrcode-terminal@0.9.x" args=["qrcode-terminal@0.9.x",null]
+507 verbose parsed url { pathname: 'qrcode-terminal@0.9.x',
+507 verbose parsed url   path: 'qrcode-terminal@0.9.x',
+507 verbose parsed url   href: 'qrcode-terminal@0.9.x' }
+508 verbose cache add name="qrcode-terminal" spec="0.9.x" args=["qrcode-terminal","0.9.x"]
+509 verbose parsed url { pathname: '0.9.x', path: '0.9.x', href: '0.9.x' }
+510 verbose addNamed [ 'qrcode-terminal', '0.9.x' ]
+511 verbose addNamed [ null, '>=0.9.0- <0.10.0-' ]
+512 silly lockFile 0e172d40-qrcode-terminal-0-9-x qrcode-terminal@0.9.x
+513 verbose lock qrcode-terminal@0.9.x /Users/kylebuchanan/.npm/0e172d40-qrcode-terminal-0-9-x.lock
+514 verbose cache add [ 'semver@1.1.0', null ]
+515 verbose cache add name=undefined spec="semver@1.1.0" args=["semver@1.1.0",null]
+516 verbose parsed url { pathname: 'semver@1.1.0',
+516 verbose parsed url   path: 'semver@1.1.0',
+516 verbose parsed url   href: 'semver@1.1.0' }
+517 verbose cache add name="semver" spec="1.1.0" args=["semver","1.1.0"]
+518 verbose parsed url { pathname: '1.1.0', path: '1.1.0', href: '1.1.0' }
+519 verbose addNamed [ 'semver', '1.1.0' ]
+520 verbose addNamed [ '1.1.0', '1.1.0' ]
+521 silly lockFile 740aca99-semver-1-1-0 semver@1.1.0
+522 verbose lock semver@1.1.0 /Users/kylebuchanan/.npm/740aca99-semver-1-1-0.lock
+523 verbose cache add [ 'shelljs@0.0.x', null ]
+524 verbose cache add name=undefined spec="shelljs@0.0.x" args=["shelljs@0.0.x",null]
+525 verbose parsed url { pathname: 'shelljs@0.0.x',
+525 verbose parsed url   path: 'shelljs@0.0.x',
+525 verbose parsed url   href: 'shelljs@0.0.x' }
+526 verbose cache add name="shelljs" spec="0.0.x" args=["shelljs","0.0.x"]
+527 verbose parsed url { pathname: '0.0.x', path: '0.0.x', href: '0.0.x' }
+528 verbose addNamed [ 'shelljs', '0.0.x' ]
+529 verbose addNamed [ null, '>=0.0.0- <0.1.0-' ]
+530 silly lockFile 846ac44d-shelljs-0-0-x shelljs@0.0.x
+531 verbose lock shelljs@0.0.x /Users/kylebuchanan/.npm/846ac44d-shelljs-0-0-x.lock
+532 silly addNameRange { name: 'node-static',
+532 silly addNameRange   range: '>=0.6.0- <0.7.0-',
+532 silly addNameRange   hasData: false }
+533 silly addNameRange { name: 'optimist', range: '>=0.3.0- <0.4.0-', hasData: false }
+534 silly addNameRange { name: 'prompt', range: '>=0.2.0- <0.3.0-', hasData: false }
+535 silly addNameRange { name: 'qrcode-terminal',
+535 silly addNameRange   range: '>=0.9.0- <0.10.0-',
+535 silly addNameRange   hasData: false }
+536 silly addNameRange { name: 'shelljs', range: '>=0.0.0- <0.1.0-', hasData: false }
+537 verbose url raw node-static
+538 verbose url resolving [ 'https://registry.npmjs.org/', './node-static' ]
+539 verbose url resolved https://registry.npmjs.org/node-static
+540 info trying registry request attempt 1 at 21:20:55
+541 verbose etag "BLHWILGITOZWUXJCNG0NV9BHP"
+542 http GET https://registry.npmjs.org/node-static
+543 verbose url raw phonegap-build/0.8.0
+544 verbose url resolving [ 'https://registry.npmjs.org/', './phonegap-build/0.8.0' ]
+545 verbose url resolved https://registry.npmjs.org/phonegap-build/0.8.0
+546 info trying registry request attempt 1 at 21:20:55
+547 verbose etag "5NDPY3MHTF7PO1GP60OKY7FZJ"
+548 http GET https://registry.npmjs.org/phonegap-build/0.8.0
+549 verbose url raw prompt
+550 verbose url resolving [ 'https://registry.npmjs.org/', './prompt' ]
+551 verbose url resolved https://registry.npmjs.org/prompt
+552 info trying registry request attempt 1 at 21:20:55
+553 verbose etag "ADBQ9VDGRUBECNQTPVOIWX6NE"
+554 http GET https://registry.npmjs.org/prompt
+555 verbose url raw qrcode-terminal
+556 verbose url resolving [ 'https://registry.npmjs.org/', './qrcode-terminal' ]
+557 verbose url resolved https://registry.npmjs.org/qrcode-terminal
+558 info trying registry request attempt 1 at 21:20:55
+559 verbose etag "2PEHHSKP0PECVL8MPY4ZA26PG"
+560 http GET https://registry.npmjs.org/qrcode-terminal
+561 verbose url raw semver/1.1.0
+562 verbose url resolving [ 'https://registry.npmjs.org/', './semver/1.1.0' ]
+563 verbose url resolved https://registry.npmjs.org/semver/1.1.0
+564 info trying registry request attempt 1 at 21:20:55
+565 verbose etag "ESCTGS95DTGQH17SNMYJ3AAWW"
+566 http GET https://registry.npmjs.org/semver/1.1.0
+567 verbose url raw optimist
+568 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+569 verbose url resolved https://registry.npmjs.org/optimist
+570 info trying registry request attempt 1 at 21:20:55
+571 verbose etag "3ZVA2H7H4RJ51S9KZ8NUGK56A"
+572 http GET https://registry.npmjs.org/optimist
+573 verbose url raw shelljs
+574 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs' ]
+575 verbose url resolved https://registry.npmjs.org/shelljs
+576 info trying registry request attempt 1 at 21:20:55
+577 verbose etag "ERIK2MR0RW2LVBLY2DLH5LME4"
+578 http GET https://registry.npmjs.org/shelljs
+579 http 304 https://registry.npmjs.org/colors
+580 silly registry.get cb [ 304,
+580 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+580 silly registry.get     etag: '"6A8GBHDKZ62PGBI3M1NRGH6L7"',
+580 silly registry.get     date: 'Mon, 07 Oct 2013 01:20:56 GMT',
+580 silly registry.get     'content-length': '0' } ]
+581 verbose etag colors from cache
+582 silly addNameRange number 2 { name: 'colors', range: '>=0.6.0- <0.7.0-', hasData: true }
+583 silly addNameRange versions [ 'colors',
+583 silly addNameRange   [ '0.3.0', '0.5.0', '0.5.1', '0.6.0', '0.6.0-1', '0.6.1', '0.6.2' ] ]
+584 verbose addNamed [ 'colors', '0.6.2' ]
+585 verbose addNamed [ '0.6.2', '0.6.2' ]
+586 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+587 verbose lock colors@0.6.2 /Users/kylebuchanan/.npm/1ce149d5-colors-0-6-2.lock
+588 verbose read json /Users/kylebuchanan/.npm/colors/0.6.2/package/package.json
+589 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+590 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+591 silly lockFile 65d14de3-colors-0-6-x colors@0.6.x
+592 silly lockFile 65d14de3-colors-0-6-x colors@0.6.x
+593 http 304 https://registry.npmjs.org/phonegap-build/0.8.0
+594 silly registry.get cb [ 304,
+594 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+594 silly registry.get     etag: '"5NDPY3MHTF7PO1GP60OKY7FZJ"',
+594 silly registry.get     date: 'Mon, 07 Oct 2013 01:20:56 GMT',
+594 silly registry.get     'content-length': '0' } ]
+595 verbose etag phonegap-build/0.8.0 from cache
+596 verbose read json /Users/kylebuchanan/.npm/phonegap-build/0.8.0/package/package.json
+597 http 304 https://registry.npmjs.org/prompt
+598 silly registry.get cb [ 304,
+598 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+598 silly registry.get     etag: '"ADBQ9VDGRUBECNQTPVOIWX6NE"',
+598 silly registry.get     date: 'Mon, 07 Oct 2013 01:20:56 GMT',
+598 silly registry.get     'content-length': '0' } ]
+599 verbose etag prompt from cache
+600 silly lockFile 827b44b6-phonegap-build-0-8-0 phonegap-build@0.8.0
+601 silly lockFile 827b44b6-phonegap-build-0-8-0 phonegap-build@0.8.0
+602 silly addNameRange number 2 { name: 'prompt', range: '>=0.2.0- <0.3.0-', hasData: true }
+603 silly addNameRange versions [ 'prompt',
+603 silly addNameRange   [ '0.0.1',
+603 silly addNameRange     '0.0.2',
+603 silly addNameRange     '0.0.3',
+603 silly addNameRange     '0.0.4',
+603 silly addNameRange     '0.1.0',
+603 silly addNameRange     '0.1.1',
+603 silly addNameRange     '0.1.2',
+603 silly addNameRange     '0.1.3',
+603 silly addNameRange     '0.1.4',
+603 silly addNameRange     '0.1.5',
+603 silly addNameRange     '0.1.7',
+603 silly addNameRange     '0.1.8',
+603 silly addNameRange     '0.1.9',
+603 silly addNameRange     '0.1.10',
+603 silly addNameRange     '0.1.11',
+603 silly addNameRange     '0.1.12',
+603 silly addNameRange     '0.2.0',
+603 silly addNameRange     '0.2.1',
+603 silly addNameRange     '0.2.2',
+603 silly addNameRange     '0.2.3',
+603 silly addNameRange     '0.2.4',
+603 silly addNameRange     '0.2.5',
+603 silly addNameRange     '0.2.6',
+603 silly addNameRange     '0.2.7',
+603 silly addNameRange     '0.2.8',
+603 silly addNameRange     '0.2.9',
+603 silly addNameRange     '0.2.10',
+603 silly addNameRange     '0.2.11' ] ]
+604 verbose addNamed [ 'prompt', '0.2.11' ]
+605 verbose addNamed [ '0.2.11', '0.2.11' ]
+606 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+607 verbose lock prompt@0.2.11 /Users/kylebuchanan/.npm/61856ab9-prompt-0-2-11.lock
+608 verbose read json /Users/kylebuchanan/.npm/prompt/0.2.11/package/package.json
+609 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+610 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+611 silly lockFile c16d6607-prompt-0-2-x prompt@0.2.x
+612 silly lockFile c16d6607-prompt-0-2-x prompt@0.2.x
+613 http 304 https://registry.npmjs.org/node-static
+614 silly registry.get cb [ 304,
+614 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+614 silly registry.get     etag: '"BLHWILGITOZWUXJCNG0NV9BHP"',
+614 silly registry.get     date: 'Mon, 07 Oct 2013 01:20:56 GMT',
+614 silly registry.get     'content-length': '0' } ]
+615 verbose etag node-static from cache
+616 silly addNameRange number 2 { name: 'node-static', range: '>=0.6.0- <0.7.0-', hasData: true }
+617 silly addNameRange versions [ 'node-static',
+617 silly addNameRange   [ '0.5.6',
+617 silly addNameRange     '0.5.7',
+617 silly addNameRange     '0.5.8',
+617 silly addNameRange     '0.5.9',
+617 silly addNameRange     '0.6.0',
+617 silly addNameRange     '0.6.1',
+617 silly addNameRange     '0.6.2',
+617 silly addNameRange     '0.6.3',
+617 silly addNameRange     '0.6.4',
+617 silly addNameRange     '0.6.5',
+617 silly addNameRange     '0.6.6',
+617 silly addNameRange     '0.6.7',
+617 silly addNameRange     '0.6.8',
+617 silly addNameRange     '0.6.9',
+617 silly addNameRange     '0.7.0',
+617 silly addNameRange     '0.7.1' ] ]
+618 verbose addNamed [ 'node-static', '0.6.9' ]
+619 verbose addNamed [ '0.6.9', '0.6.9' ]
+620 silly lockFile 4aa3f273-node-static-0-6-9 node-static@0.6.9
+621 verbose lock node-static@0.6.9 /Users/kylebuchanan/.npm/4aa3f273-node-static-0-6-9.lock
+622 verbose read json /Users/kylebuchanan/.npm/node-static/0.6.9/package/package.json
+623 silly lockFile 4aa3f273-node-static-0-6-9 node-static@0.6.9
+624 silly lockFile 4aa3f273-node-static-0-6-9 node-static@0.6.9
+625 silly lockFile 723c3f13-node-static-0-6-x node-static@0.6.x
+626 silly lockFile 723c3f13-node-static-0-6-x node-static@0.6.x
+627 http 304 https://registry.npmjs.org/cordova/2.9.0rc1
+628 silly registry.get cb [ 304,
+628 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+628 silly registry.get     etag: '"O6OSN7WDK639HVP0V5PT7KJ9"',
+628 silly registry.get     date: 'Mon, 07 Oct 2013 01:20:56 GMT',
+628 silly registry.get     'content-length': '0' } ]
+629 verbose etag cordova/2.9.0rc1 from cache
+630 verbose read json /Users/kylebuchanan/.npm/cordova/2.9.0rc1/package/package.json
+631 silly lockFile 21852a73-cordova-2-9-0rc1 cordova@2.9.0rc1
+632 silly lockFile 21852a73-cordova-2-9-0rc1 cordova@2.9.0rc1
+633 http 304 https://registry.npmjs.org/qrcode-terminal
+634 silly registry.get cb [ 304,
+634 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+634 silly registry.get     etag: '"2PEHHSKP0PECVL8MPY4ZA26PG"',
+634 silly registry.get     date: 'Mon, 07 Oct 2013 01:20:56 GMT',
+634 silly registry.get     'content-length': '0' } ]
+635 verbose etag qrcode-terminal from cache
+636 silly addNameRange number 2 { name: 'qrcode-terminal',
+636 silly addNameRange   range: '>=0.9.0- <0.10.0-',
+636 silly addNameRange   hasData: true }
+637 silly addNameRange versions [ 'qrcode-terminal',
+637 silly addNameRange   [ '0.1.0',
+637 silly addNameRange     '0.2.0',
+637 silly addNameRange     '0.3.0',
+637 silly addNameRange     '0.4.0',
+637 silly addNameRange     '0.5.0',
+637 silly addNameRange     '0.5.1',
+637 silly addNameRange     '0.6.0',
+637 silly addNameRange     '0.7.0',
+637 silly addNameRange     '0.8.0',
+637 silly addNameRange     '0.9.0',
+637 silly addNameRange     '0.9.1',
+637 silly addNameRange     '0.9.2',
+637 silly addNameRange     '0.9.3',
+637 silly addNameRange     '0.9.4' ] ]
+638 verbose addNamed [ 'qrcode-terminal', '0.9.4' ]
+639 verbose addNamed [ '0.9.4', '0.9.4' ]
+640 silly lockFile b8302fc0-qrcode-terminal-0-9-4 qrcode-terminal@0.9.4
+641 verbose lock qrcode-terminal@0.9.4 /Users/kylebuchanan/.npm/b8302fc0-qrcode-terminal-0-9-4.lock
+642 verbose read json /Users/kylebuchanan/.npm/qrcode-terminal/0.9.4/package/package.json
+643 http 304 https://registry.npmjs.org/semver/1.1.0
+644 silly registry.get cb [ 304,
+644 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+644 silly registry.get     etag: '"ESCTGS95DTGQH17SNMYJ3AAWW"',
+644 silly registry.get     date: 'Mon, 07 Oct 2013 01:20:56 GMT',
+644 silly registry.get     'content-length': '0' } ]
+645 verbose etag semver/1.1.0 from cache
+646 silly lockFile b8302fc0-qrcode-terminal-0-9-4 qrcode-terminal@0.9.4
+647 silly lockFile b8302fc0-qrcode-terminal-0-9-4 qrcode-terminal@0.9.4
+648 silly lockFile 0e172d40-qrcode-terminal-0-9-x qrcode-terminal@0.9.x
+649 silly lockFile 0e172d40-qrcode-terminal-0-9-x qrcode-terminal@0.9.x
+650 verbose read json /Users/kylebuchanan/.npm/semver/1.1.0/package/package.json
+651 silly lockFile 740aca99-semver-1-1-0 semver@1.1.0
+652 silly lockFile 740aca99-semver-1-1-0 semver@1.1.0
+653 http 304 https://registry.npmjs.org/optimist
+654 silly registry.get cb [ 304,
+654 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+654 silly registry.get     etag: '"3ZVA2H7H4RJ51S9KZ8NUGK56A"',
+654 silly registry.get     date: 'Mon, 07 Oct 2013 01:20:56 GMT',
+654 silly registry.get     'content-length': '0' } ]
+655 verbose etag optimist from cache
+656 silly addNameRange number 2 { name: 'optimist', range: '>=0.3.0- <0.4.0-', hasData: true }
+657 silly addNameRange versions [ 'optimist',
+657 silly addNameRange   [ '0.0.1',
+657 silly addNameRange     '0.0.2',
+657 silly addNameRange     '0.0.4',
+657 silly addNameRange     '0.0.5',
+657 silly addNameRange     '0.0.6',
+657 silly addNameRange     '0.0.7',
+657 silly addNameRange     '0.1.0',
+657 silly addNameRange     '0.1.1',
+657 silly addNameRange     '0.1.2',
+657 silly addNameRange     '0.1.3',
+657 silly addNameRange     '0.1.4',
+657 silly addNameRange     '0.1.5',
+657 silly addNameRange     '0.1.6',
+657 silly addNameRange     '0.1.7',
+657 silly addNameRange     '0.1.8',
+657 silly addNameRange     '0.1.9',
+657 silly addNameRange     '0.0.3',
+657 silly addNameRange     '0.2.0',
+657 silly addNameRange     '0.2.1',
+657 silly addNameRange     '0.2.2',
+657 silly addNameRange     '0.2.3',
+657 silly addNameRange     '0.2.4',
+657 silly addNameRange     '0.2.5',
+657 silly addNameRange     '0.2.6',
+657 silly addNameRange     '0.2.7',
+657 silly addNameRange     '0.2.8',
+657 silly addNameRange     '0.3.0',
+657 silly addNameRange     '0.3.1',
+657 silly addNameRange     '0.3.3',
+657 silly addNameRange     '0.3.4',
+657 silly addNameRange     '0.3.5',
+657 silly addNameRange     '0.3.6',
+657 silly addNameRange     '0.3.7',
+657 silly addNameRange     '0.4.0',
+657 silly addNameRange     '0.5.0',
+657 silly addNameRange     '0.5.1',
+657 silly addNameRange     '0.5.2',
+657 silly addNameRange     '0.6.0' ] ]
+658 verbose addNamed [ 'optimist', '0.3.7' ]
+659 verbose addNamed [ '0.3.7', '0.3.7' ]
+660 silly lockFile 090e1d8d-optimist-0-3-7 optimist@0.3.7
+661 verbose lock optimist@0.3.7 /Users/kylebuchanan/.npm/090e1d8d-optimist-0-3-7.lock
+662 verbose read json /Users/kylebuchanan/.npm/optimist/0.3.7/package/package.json
+663 silly lockFile 090e1d8d-optimist-0-3-7 optimist@0.3.7
+664 silly lockFile 090e1d8d-optimist-0-3-7 optimist@0.3.7
+665 silly lockFile 3bb5ebed-optimist-0-3-x optimist@0.3.x
+666 silly lockFile 3bb5ebed-optimist-0-3-x optimist@0.3.x
+667 http 304 https://registry.npmjs.org/shelljs
+668 silly registry.get cb [ 304,
+668 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+668 silly registry.get     etag: '"ERIK2MR0RW2LVBLY2DLH5LME4"',
+668 silly registry.get     date: 'Mon, 07 Oct 2013 01:20:56 GMT',
+668 silly registry.get     'content-length': '0' } ]
+669 verbose etag shelljs from cache
+670 silly addNameRange number 2 { name: 'shelljs', range: '>=0.0.0- <0.1.0-', hasData: true }
+671 silly addNameRange versions [ 'shelljs',
+671 silly addNameRange   [ '0.0.1',
+671 silly addNameRange     '0.0.2',
+671 silly addNameRange     '0.0.3',
+671 silly addNameRange     '0.0.4',
+671 silly addNameRange     '0.0.5',
+671 silly addNameRange     '0.0.6',
+671 silly addNameRange     '0.0.7',
+671 silly addNameRange     '0.0.8',
+671 silly addNameRange     '0.0.9',
+671 silly addNameRange     '0.1.0',
+671 silly addNameRange     '0.1.1',
+671 silly addNameRange     '0.1.2',
+671 silly addNameRange     '0.1.3',
+671 silly addNameRange     '0.1.4',
+671 silly addNameRange     '0.2.0',
+671 silly addNameRange     '0.2.1',
+671 silly addNameRange     '0.2.2',
+671 silly addNameRange     '0.2.3',
+671 silly addNameRange     '0.2.4',
+671 silly addNameRange     '0.2.5',
+671 silly addNameRange     '0.2.6',
+671 silly addNameRange     '0.0.1-alpha1',
+671 silly addNameRange     '0.0.2-pre1',
+671 silly addNameRange     '0.0.4-pre1',
+671 silly addNameRange     '0.0.5-pre1',
+671 silly addNameRange     '0.0.5-pre2',
+671 silly addNameRange     '0.0.5-pre3',
+671 silly addNameRange     '0.0.5-pre4',
+671 silly addNameRange     '0.0.6-pre1',
+671 silly addNameRange     '0.0.6-pre2' ] ]
+672 verbose addNamed [ 'shelljs', '0.0.9' ]
+673 verbose addNamed [ '0.0.9', '0.0.9' ]
+674 silly lockFile bd35cb54-shelljs-0-0-9 shelljs@0.0.9
+675 verbose lock shelljs@0.0.9 /Users/kylebuchanan/.npm/bd35cb54-shelljs-0-0-9.lock
+676 verbose read json /Users/kylebuchanan/.npm/shelljs/0.0.9/package/package.json
+677 silly lockFile bd35cb54-shelljs-0-0-9 shelljs@0.0.9
+678 silly lockFile bd35cb54-shelljs-0-0-9 shelljs@0.0.9
+679 silly lockFile 846ac44d-shelljs-0-0-x shelljs@0.0.x
+680 silly lockFile 846ac44d-shelljs-0-0-x shelljs@0.0.x
+681 silly resolved [ { name: 'colors',
+681 silly resolved     description: 'get colors in your node.js console like what',
+681 silly resolved     version: '0.6.2',
+681 silly resolved     author: { name: 'Marak Squires' },
+681 silly resolved     homepage: 'https://github.com/Marak/colors.js',
+681 silly resolved     bugs: 'https://github.com/Marak/colors.js/issues',
+681 silly resolved     keywords: [ 'ansi', 'terminal', 'colors' ],
+681 silly resolved     repository: { type: 'git', url: 'http://github.com/Marak/colors.js.git' },
+681 silly resolved     engines: { node: '>=0.1.90' },
+681 silly resolved     main: 'colors',
+681 silly resolved     readme: '# colors.js - get color and style in your node.js console ( and browser ) like what\n\n<img src="http://i.imgur.com/goJdO.png" border = "0"/>\n\n\n## Installation\n\n    npm install colors\n\n## colors and styles!\n\n- bold\n- italic\n- underline\n- inverse\n- yellow\n- cyan\n- white\n- magenta\n- green\n- red\n- grey\n- blue\n- rainbow\n- zebra\n- random\n\n## Usage\n\n``` js\nvar colors = require(\'./colors\');\n\nconsole.log(\'hello\'.green); // outputs green text\nconsole.log(\'i like cake and pies\'.underline.red) // outputs red underlined text\nconsole.log(\'inverse the color\'.inverse); // inverses the color\nconsole.log(\'OMG Rainbows!\'.rainbow); // rainbow (ignores spaces)\n```\n\n# Creating Custom themes\n\n```js\n\nvar colors = require(\'colors\');\n\ncolors.setTheme({\n  silly: \'rainbow\',\n  input: \'grey\',\n  verbose: \'cyan\',\n  prompt: \'grey\',\n  info: \'green\',\n  data: \'grey\',\n  help: \'cyan\',\n  warn: \'yellow\',\n  debug: \'blue\',\n  error: \'red\'\n});\n\n// outputs red text\nconsole.log("this is an error".error);\n\n// outputs yellow text\nconsole.log("this is a warning".warn);\n```\n\n\n### Contributors \n\nMarak (Marak Squires)\nAlexis Sellier (cloudhead)\nmmalecki (Maciej Małecki)\nnicoreed (Nico Reed)\nmorganrallen (Morgan Allen)\nJustinCampbell (Justin Campbell)\nded (Dustin Diaz)\n\n\n####  , Marak Squires , Justin Campbell, Dustin Diaz (@ded)\n',
+681 silly resolved     readmeFilename: 'ReadMe.md',
+681 silly resolved     _id: 'colors@0.6.2',
+681 silly resolved     _from: 'colors@0.6.x' },
+681 silly resolved   { name: 'phonegap-build',
+681 silly resolved     description: 'PhoneGap Build node library.',
+681 silly resolved     version: '0.8.0',
+681 silly resolved     homepage: 'http://github.com/mwbrooks/node-phonegap-build',
+681 silly resolved     repository:
+681 silly resolved      { type: 'git',
+681 silly resolved        url: 'git://github.com/mwbrooks/node-phonegap-build.git' },
+681 silly resolved     keywords:
+681 silly resolved      [ 'phonegap',
+681 silly resolved        'phonegap build',
+681 silly resolved        'phonegap-build',
+681 silly resolved        'phonegapbuild',
+681 silly resolved        'cordova' ],
+681 silly resolved     main: './lib/main.js',
+681 silly resolved     scripts: { test: './node_modules/.bin/jasmine-node --color --verbose spec' },
+681 silly resolved     engines: { node: '>=0.8.0' },
+681 silly resolved     dependencies:
+681 silly resolved      { colors: '0.6.x',
+681 silly resolved        prompt: '0.2.x',
+681 silly resolved        shelljs: '0.0.x',
+681 silly resolved        optimist: '0.3.x',
+681 silly resolved        'qrcode-terminal': '0.8.x',
+681 silly resolved        'phonegap-build-api': '0.3.3' },
+681 silly resolved     devDependencies: { 'jasmine-node': '1.1.x' },
+681 silly resolved     optionalDependencies: {},
+681 silly resolved     contributors: [ [Object], [Object], [Object] ],
+681 silly resolved     readme: '# PhoneGap Build Node Library [![Build Status][travis-ci-img]][travis-ci-url]\n\n> Node module to create and build PhoneGap projects with PhoneGap Build.\n\n## Getting Started\n\n### Install\n\n`package.json`:\n\n    {\n        "dependencies": {\n            "phonegap-build": "*"\n        }\n    }\n\n### Require\n\n    var phonegapbuild = require(\'phonegap-build\');\n\n## API\n\n### Login\n\n> Authenticates with PhoneGap Build, saves the token, and return an API object.\n> When the save token exists, the authentication step is skipped.\n\nOptions:\n\n  - `options` {Object} contains the login credentials.\n  - [`options.username`] {String} is the username.\n  - [`options.password`] {String} is the password.\n  - [`callback`] {Function} is called after the login.\n    - `e` {Error} is null on a successful login attempt.\n    - `api` {Object} the API object defined by phonegap-build-rest\n\nEvents:\n\n  - `login` is triggered when login credentials are required.\n  - `error` is triggered on an error.\n    - `e` {Error} details the error.\n  - `log` is triggered with log messages.\n  - `warn` is triggered with warning messages.\n\nExamples:\n\n    //\n    // given the login credentials\n    //\n\n    var options = { username: \'mwbrooks@adobe.com\', password: \'abc123\' };\n\n    phonegapbuild.login(data, function(e, api) {\n        // now logged in\n    });\n\n    //\n    // get login credentials on demand\n    //\n\n    phonegapbuild.on(\'login\', function(options, callback) {\n        options.username = options.username || \'mwbrooks@adobe.com\';\n        options.password = options.password || \'abc123\';\n        callback(null, options);\n    });\n\n    phonegapbuild.login(function(e, api) {\n        // now logged in\n    });\n\n### Login Event\n\n> This event is called whenever a task must authenticate with PhoneGap/Build\n> and the credentials are unknown. If only the username or only the password\n> is known, the it is passed into the event as the `options` object.\n\n> The developer should listen on this event and correctly retrieve the login\n> credentials: looking them up from storage or prompting the user. Once\n> the credentials are found, the `callback` can be fired with the correct\n> credentials.\n\nOptions:\n\n  - `options` {Object} contains the known login credentials.\n  - [`options.username`] {String} is null or the username.\n  - [`options.password`] {String} is null or the password.\n  - `callback` {Function} is called with the correct credentials.\n    - `e` {Error} is null or the error that occured.\n    - `options` {Object} is the correct username and password.\n\nExamples:\n\n    phonegapbuild.on(\'login\', function(options, callback) {\n        options.username = options.username || \'mwbrooks@adobe.com\';\n        options.password = options.password || \'abc123\';\n        callback(null, options);\n    });\n\n### Logout\n\n> Logout the user by deleting the token key from the config file.\n\nOptions:\n\n  - `args` {Object} is unused and should be `{}`.\n  - [`callback`] {Function} is a callback function.\n    - `e` {Error} is null unless there is an error.\n\nEvents:\n\n  - `error` is trigger on an error.\n    - `e` {Error} details the error.\n\nExamples:\n\n    phonegapbuild.logout({}, function(e) {\n        // now logged out unless e is defined\n    });\n\n### Create an App\n\n> Creates an application on the local filesystem.\n> The remote application is created on-demand during the first build.\n\nOptions:\n\n  - `options` {Object} is data required to create an app\n    - `path` {String} is a directory path for the app.\n  - [`callback`] {Function} is triggered after creating the app.\n    - `e` {Error} is null unless there is an error.\n\nEvents:\n\n  - `error` is triggered on an error.\n    - `e` {Error} details the error.\n\nExamples:\n\n    var options = { path: \'~/development/my-app\' };\n\n    phonegapbuild.create(options, function(e) {\n        if (e) {\n            console.error(\'failed to create the project:\', e.message);\n        }\n        else {\n            console.log(\'created the project:\', path);\n        }\n    });\n\n### Build an App\n\n> Builds the application using PhoneGap/Build. If the application does not\n> exist, then it is first created. Currently, the build task only supports\n> file transfers (zip) but will be extended to git repositories in the future.\n\nOptions:\n\n  - `options` {Object} is data required for building a platform.\n  - `options.platforms` {Array} is a collection of platform names {String} that\n                        specify the platforms to build.\n  - [`callback`] {Function} is triggered after the build is complete.\n    - `e` {Error} is null unless there is an error.\n    - `data` {Object} describes the built app.\n\nEvents:\n\n  - `error` is trigger on an error.\n    - `e` {Error} details the error.\n\nExamples:\n\n    var options = { platforms: [\'android\'] };\n\n    phonegapbuild.build(options, function(e, data) {\n        if (e) {\n            console.error(\'failed to build the app:\', e);\n        }\n        else {\n            console.log(\'successfully built the app:\', data);\n        }\n    });\n\n## Related Projects\n\n- [phonegap-cli](https://github.com/mwbrooks/phonegap-cli)\n\n[travis-ci-img]: https://travis-ci.org/mwbrooks/node-phonegap-build.png?branch=master\n[travis-ci-url]: https://travis-ci.org/mwbrooks/node-phonegap-build\n\n',
+681 silly resolved     readmeFilename: 'README.md',
+681 silly resolved     _id: 'phonegap-build@0.8.0',
+681 silly resolved     _from: 'phonegap-build@0.8.0' },
+681 silly resolved   { name: 'prompt',
+681 silly resolved     description: 'A beautiful command-line prompt for node.js',
+681 silly resolved     version: '0.2.11',
+681 silly resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+681 silly resolved     maintainers: [ [Object], [Object] ],
+681 silly resolved     repository: { type: 'git', url: 'http://github.com/flatiron/prompt.git' },
+681 silly resolved     dependencies:
+681 silly resolved      { pkginfo: '0.x.x',
+681 silly resolved        read: '1.0.x',
+681 silly resolved        revalidator: '0.1.x',
+681 silly resolved        utile: '0.2.x',
+681 silly resolved        winston: '0.6.x' },
+681 silly resolved     devDependencies: { vows: '0.7.0' },
+681 silly resolved     main: './lib/prompt',
+681 silly resolved     scripts:
+681 silly resolved      { test: 'vows test/prompt-test.js --spec',
+681 silly resolved        'test-all': 'vows --spec' },
+681 silly resolved     engines: { node: '>= 0.6.6' },
+681 silly resolved     readme: '# prompt [![Build Status](https://secure.travis-ci.org/flatiron/prompt.png)](http://travis-ci.org/flatiron/prompt)\n\nA beautiful command-line prompt for node.js\n\n## Features\n\n* prompts the user for input\n* supports validation and defaults\n* hides passwords\n\n## Usage\nUsing prompt is relatively straight forward. There are two core methods you should be aware of: `prompt.get()` and `prompt.addProperties()`. There methods take strings representing property names in addition to objects for complex property validation (and more). There are a number of [examples][0] that you should examine for detailed usage.\n\n### Getting Basic Prompt Information\nGetting started with `prompt` is easy. Lets take a look at `examples/simple-prompt.js`:\n\n``` js\n  var prompt = require(\'prompt\');\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: username and email\n  //\n  prompt.get([\'username\', \'email\'], function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  username: \' + result.username);\n    console.log(\'  email: \' + result.email);\n  });\n```\n\nThis will result in the following command-line output:\n\n```\n  $ node examples/simple-prompt.js \n  prompt: username: some-user\n  prompt: email: some-user@some-place.org\n  Command-line input received:\n    username: some-user\n    email: some-user@some-place.org\n```\n\n### Prompting with Validation, Default Values, and More (Complex Properties)\nIn addition to prompting the user with simple string prompts, there is a robust API for getting and validating complex information from a command-line prompt. Here\'s a quick sample:\n\n``` js\n  var schema = {\n    properties: {\n      name: {\n        pattern: /^[a-zA-Z\\s\\-]+$/,\n        message: \'Name must be only letters, spaces, or dashes\',\n        required: true\n      },\n      password: {\n        hidden: true\n      }\n    }\n  };\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: email, password\n  //\n  prompt.get(schema, function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  name: \' + result.name);\n    console.log(\'  password: \' + result.password);\n  });\n```\n\nPretty easy right? The output from the above script is: \n\n```\n  $ node examples/property-prompt.js\n  prompt: name: nodejitsu000\n  error:  Invalid input for name\n  error:  Name must be only letters, spaces, or dashes\n  prompt: name: Nodejitsu Inc\n  prompt: password: \n  Command-line input received:\n    name: Nodejitsu Inc\n    password: some-password  \n```\n\n## Valid Property Settings\n`prompt` understands JSON-schema with a few extra parameters and uses [revalidator](https://github.com/flatiron/revalidator) for validation.\n\nHere\'s an overview of the properties that may be used for validation and prompting controls:\n\n``` js\n  {\n    description: \'Enter your password\',     // Prompt displayed to the user. If not supplied name will be used.\n    type: \'string\',                 // Specify the type of input to expect.\n    pattern: /^\\w+$/,                  // Regular expression that input must be valid against.\n    message: \'Password must be letters\', // Warning message to display if validation fails.\n    hidden: true,                        // If true, characters entered will not be output to console.\n    default: \'lamepassword\',             // Default value to use if no value is entered.\n    required: true                        // If true, value entered must be non-empty.\n    before: function(value) { return \'v\' + value; } // Runs before node-prompt callbacks. It modifies user\'s input\n  }\n```\n\nAlternatives to `pattern` include `format` and `conform`, as documented in [revalidator](https://github.com/flatiron/revalidator).\n\nUsing `type: \'array\'` has some special cases.\n\n- `description` will not work in the schema if `type: \'array\'` is defined.\n- `maxItems` takes precedence over `minItems`.\n- Arrays that do not have `maxItems` defined will require users to `SIGINT` (`^C`) before the array is ended.\n- If `SIGINT` (`^C`) is triggered before `minItems` is met, a validation error will appear. This will require users to `SIGEOF` (`^D`) to end the input.\n\nFor more information on things such as `maxItems` and `minItems`, refer to the [revalidator](https://github.com/flatiron/revalidator) repository.\n\n### Alternate Validation API:\n\nPrompt, in addition to iterating over JSON-Schema properties, will also happily iterate over an array of validation objects given an extra \'name\' property:\n\n```js\n  var prompt = require(\'../lib/prompt\');\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: username and password\n  //\n  prompt.get([{\n      name: \'username\',\n      required: true\n    }, {\n      name: \'password\',\n      hidden: true,\n      conform: function (value) {\n        return true;\n      }\n    }], function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  username: \' + result.username);\n    console.log(\'  password: \' + result.password);\n  });\n```\n\n### Backward Compatibility\n\nNote that, while this structure is similar to that used by prompt 0.1.x, that the object properties use the same names as in JSON-Schema. prompt 0.2.x is backward compatible with prompt 0.1.x except for asynchronous validation.\n\n### Skipping Prompts\n\nSometimes power users may wish to skip promts and specify all data as command line options. \nif a value is set as a property of `prompt.override` prompt will use that instead of \nprompting the user.\n\n``` js\n  //prompt-override.js\n\n  var prompt = require(\'prompt\'),\n      optimist = require(\'optimist\')\n\n  //\n  // set the overrides\n  //\n  prompt.override = optimist.argv\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: username and email\n  //\n  prompt.get([\'username\', \'email\'], function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  username: \' + result.username);\n    console.log(\'  email: \' + result.email);\n  })\n\n  //: node prompt-override.js --username USER --email EMAIL\n```\n\n\n### Adding Properties to an Object \nA common use-case for prompting users for data from the command-line is to extend or create a configuration object that is passed onto the entry-point method for your CLI tool. `prompt` exposes a convenience method for doing just this: \n\n``` js\n  var obj = {\n    password: \'lamepassword\',\n    mindset: \'NY\'\n  }\n\n  //\n  // Log the initial object.\n  //\n  console.log(\'Initial object to be extended:\');\n  console.dir(obj);\n\n  //\n  // Add two properties to the empty object: username and email\n  //\n  prompt.addProperties(obj, [\'username\', \'email\'], function (err) {\n    //\n    // Log the results.\n    //\n    console.log(\'Updated object received:\');\n    console.dir(obj);\n  });\n```\n\n## Customizing your prompt\nAside from changing `property.message`, you can also change `prompt.message`\nand `prompt.delimiter` to change the appearance of your prompt.\n\nThe basic structure of a prompt is this:\n\n``` js\nprompt.message + prompt.delimiter + property.message + prompt.delimiter;\n```\n\nThe default `prompt.message` is "prompt," the default `prompt.delimiter` is\n": ", and the default `property.message` is `property.name`.\nChanging these allows you to customize the appearance of your prompts! In\naddition, prompt supports ANSI color codes via the\n[colors module](https://github.com/Marak/colors.js) for custom colors. For a\nvery colorful example:\n\n``` js\n  var prompt = require("prompt");\n\n  //\n  // Setting these properties customizes the prompt.\n  //\n  prompt.message = "Question!".rainbow;\n  prompt.delimiter = "><".green;\n\n  prompt.start();\n\n  prompt.get({\n    properties: {\n      name: {\n        description: "What is your name?".magenta\n      }\n    }\n  }, function (err, result) {\n    console.log("You said your name is: ".cyan + result.name.cyan);\n  });\n```\n\nIf you don\'t want colors, you can set\n\n```js\nvar prompt = require(\'prompt\');\n\nprompt.colors = false;\n```\n\n## Installation\n\n``` bash\n  $ [sudo] npm install prompt\n```\n\n## Running tests\n\n``` bash \n  $ npm test\n```\n\n#### License: MIT\n#### Author: [Charlie Robbins](http://github.com/indexzero)\n#### Contributors: [Josh Holbrook](http://github.com/jesusabdullah), [Pavan Kumar Sunkara](http://github.com/pksunkara)\n\n[0]: https://github.com/flatiron/prompt/tree/master/examples\n',
+681 silly resolved     readmeFilename: 'README.md',
+681 silly resolved     _id: 'prompt@0.2.11',
+681 silly resolved     _from: 'prompt@0.2.x' },
+681 silly resolved   { name: 'node-static',
+681 silly resolved     description: 'simple, compliant file streaming module for node',
+681 silly resolved     url: 'http://github.com/cloudhead/node-static',
+681 silly resolved     keywords: [ 'http', 'static', 'file', 'server' ],
+681 silly resolved     author: { name: 'Alexis Sellier', email: 'self@cloudhead.net' },
+681 silly resolved     contributors: [ [Object] ],
+681 silly resolved     repository: { type: 'git', url: 'http://github.com/cloudhead/node-static' },
+681 silly resolved     main: './lib/node-static',
+681 silly resolved     scripts: { test: 'vows --spec --isolate' },
+681 silly resolved     bin: { static: 'bin/cli.js' },
+681 silly resolved     license: 'MIT',
+681 silly resolved     dependencies: { optimist: '>=0.3.4', colors: '>=0.6.0', mime: '>=1.2.9' },
+681 silly resolved     devDependencies: { request: 'latest', vows: 'latest' },
+681 silly resolved     version: '0.6.9',
+681 silly resolved     engines: { node: '>= 0.4.1' },
+681 silly resolved     readme: 'node-static\n===========\n\n> a simple, *rfc 2616 compliant* file streaming module for [node](http://nodejs.org)\n\nnode-static has an in-memory file cache, making it highly efficient.\nnode-static understands and supports *conditional GET* and *HEAD* requests.\nnode-static was inspired by some of the other static-file serving modules out there,\nsuch as node-paperboy and antinode.\n\nSynopsis\n--------\n\n    var static = require(\'node-static\');\n\n    //\n    // Create a node-static server instance to serve the \'./public\' folder\n    //\n    var file = new(static.Server)(\'./public\');\n\n    require(\'http\').createServer(function (request, response) {\n        request.addListener(\'end\', function () {\n            //\n            // Serve files!\n            //\n            file.serve(request, response);\n        });\n    }).listen(8080);\n\nAPI\n---\n\n### Creating a node-static Server #\n\nCreating a file server instance is as simple as:\n\n    new static.Server();\n\nThis will serve files in the current directory. If you want to serve files in a specific\ndirectory, pass it as the first argument:\n\n    new static.Server(\'./public\');\n\nYou can also specify how long the client is supposed to cache the files node-static serves:\n\n    new static.Server(\'./public\', { cache: 3600 });\n\nThis will set the `Cache-Control` header, telling clients to cache the file for an hour.\nThis is the default setting.\n\n### Serving files under a directory #\n\nTo serve files under a directory, simply call the `serve` method on a `Server` instance, passing it\nthe HTTP request and response object:\n\n    var fileServer = new static.Server(\'./public\');\n\n    require(\'http\').createServer(function (request, response) {\n        request.addListener(\'end\', function () {\n            fileServer.serve(request, response);\n        });\n    }).listen(8080);\n\n### Serving specific files #\n\nIf you want to serve a specific file, like an error page for example, use the `serveFile` method:\n\n    fileServer.serveFile(\'/error.html\', 500, {}, request, response);\n\nThis will serve the `error.html` file, from under the file root directory, with a `500` status code.\nFor example, you could serve an error page, when the initial request wasn\'t found:\n\n    require(\'http\').createServer(function (request, response) {\n        request.addListener(\'end\', function () {\n            fileServer.serve(request, response, function (e, res) {\n                if (e && (e.status === 404)) { // If the file wasn\'t found\n                    fileServer.serveFile(\'/not-found.html\', 404, {}, request, response);\n                }\n            });\n        });\n    }).listen(8080);\n\nMore on intercepting errors bellow.\n\n### Intercepting errors & Listening #\n\nAn optional callback can be passed as last argument, it will be called every time a file\nhas been served successfully, or if there was an error serving the file:\n\n    var fileServer = new static.Server(\'./public\');\n\n    require(\'http\').createServer(function (request, response) {\n        request.addListener(\'end\', function () {\n            fileServer.serve(request, response, function (err, result) {\n                if (err) { // There was an error serving the file\n                    sys.error("Error serving " + request.url + " - " + err.message);\n\n                    // Respond to the client\n                    response.writeHead(err.status, err.headers);\n                    response.end();\n                }\n            });\n        });\n    }).listen(8080);\n\nNote that if you pass a callback, and there is an error serving the file, node-static\n*will not* respond to the client. This gives you the opportunity to re-route the request,\nor handle it differently.\n\nFor example, you may want to interpret a request as a static request, but if the file isn\'t found,\nsend it to an application.\n\nIf you only want to *listen* for errors, you can use *event listeners*:\n\n    fileServer.serve(request, response).addListener(\'error\', function (err) {\n        sys.error("Error serving " + request.url + " - " + err.message);\n    });\n\nWith this method, you don\'t have to explicitly send the response back, in case of an error.\n\n### Options when creating an instance of `Server` #\n\n#### `cache` #\n\nSets the `Cache-Control` header.\n\nexample: `{ cache: 7200 }`\n\nPassing a number will set the cache duration to that number of seconds.\nPassing `false` will disable the `Cache-Control` header.\n\n> Defaults to `3600`\n\n\n#### `serverInfo` #\n\nSets the `Server` header.\n\nexample: `{ serverInfo: "myserver" }`\n\n> Defaults to `node-static/{version}`\n\n#### `headers` #\n\nSets response headers.\n\nexample: `{ \'X-Hello\': \'World!\' }`\n\n> defaults to `{}`\n\nCommand Line Interface\n----------------------\n\n`node-static` also provides a CLI.\n\n### Installation #\n\n    $ npm install -g node-static\n\n### Example Usage #\n\n    # serve up the current directory\n    $ static\n    serving "." at http://127.0.0.1:8080\n\n    # serve up a different directory\n    $ static public\n    serving "public" at http://127.0.0.1:8080\n\n    # specify additional headers (this one is useful for development)\n    $ static -H \'{"Cache-Control": "no-cache, must-revalidate"}\'\n    serving "." at http://127.0.0.1:8080\n\n    # set cache control max age\n    $ static -c 7200\n    serving "." at http://127.0.0.1:8080\n\n    # show help message, including all options\n    $ static -h\n',
+681 silly resolved     readmeFilename: 'README.md',
+681 silly resolved     _id: 'node-static@0.6.9',
+681 silly resolved     _from: 'node-static@0.6.x' },
+681 silly resolved   { name: 'cordova',
+681 silly resolved     version: '2.9.0rc1',
+681 silly resolved     preferGlobal: 'true',
+681 silly resolved     description: 'Cordova command line interface tool',
+681 silly resolved     main: 'cordova',
+681 silly resolved     engines: { node: '>=0.9.9' },
+681 silly resolved     engineStrict: true,
+681 silly resolved     bin: { cordova: './bin/cordova' },
+681 silly resolved     scripts: { test: 'jasmine-node --color spec' },
+681 silly resolved     repository:
+681 silly resolved      { type: 'git',
+681 silly resolved        url: 'https://git-wip-us.apache.org/repos/asf/cordova-cli.git' },
+681 silly resolved     bugs:
+681 silly resolved      { url: 'https://issues.apache.org/jira/browse/CB',
+681 silly resolved        email: 'dev@cordova.apache.org' },
+681 silly resolved     keywords: [ 'cordova', 'client', 'cli' ],
+681 silly resolved     dependencies:
+681 silly resolved      { colors: '>=0.6.0',
+681 silly resolved        elementtree: '0.1.3',
+681 silly resolved        plugman: '0.7.14',
+681 silly resolved        plist: '0.4.x',
+681 silly resolved        xcode: '0.5.1',
+681 silly resolved        express: '3.0',
+681 silly resolved        shelljs: '0.1.2',
+681 silly resolved        ncallbacks: '1.0.0',
+681 silly resolved        request: '2.12.x',
+681 silly resolved        semver: '1.1.0',
+681 silly resolved        glob: '3.2.x',
+681 silly resolved        'follow-redirects': '0.0.x',
+681 silly resolved        prompt: '0.2.7',
+681 silly resolved        tar: '0.1.x',
+681 silly resolved        'ripple-emulator': '>=0.9.15',
+681 silly resolved        open: '0.0.3' },
+681 silly resolved     devDependencies: { 'jasmine-node': '1.8.x' },
+681 silly resolved     author: { name: 'Anis Kadri' },
+681 silly resolved     contributors:
+681 silly resolved      [ [Object],
+681 silly resolved        [Object],
+681 silly resolved        [Object],
+681 silly resolved        [Object],
+681 silly resolved        [Object],
+681 silly resolved        [Object],
+681 silly resolved        [Object],
+681 silly resolved        [Object],
+681 silly resolved        [Object],
+681 silly resolved        [Object] ],
+681 silly resolved     license: 'Apache version 2.0',
+681 silly resolved     readme: '# cordova-cli\n\n> The command line tool to build, deploy and manage [Cordova](http://cordova.io)-based applications.\n\n[Apache Cordova](http://cordova.io) allows for building native mobile applications using HTML, CSS and JavaScript. This tool helps with management of multi-platform Cordova applications as well as Cordova plugin integration.\n\nCheck out the [Getting Started guides](http://cordova.apache.org/docs/en/edge/guide_getting-started_index.md.html#Getting%20Started%20Guides) for more details on how to work with Cordova sub-projects.\n\n# Requirements\n\n* [nodejs](http://nodejs.org/)\n* SDKs for every platform you wish to support\n  - BlackBerry 10: [BlackBerry 10 WebWorks SDK](http://developer.blackberry.com/html5/download/). Make sure you have the `dependencies/tools/bin` folder inside the SDK directory added to your path!\n  - iOS: [iOS SDK](http://developer.apple.com) with the latest Xcode and Xcode Command Line Tools\n  - [Android SDK](http://developer.android.com) - **NOTE** This tool\n    will not work unless you have the absolute latest updates for all\n    Android SDK components. Also you will need the SDK\'s `tools` and `platform-tools` directories on your __system path__ otherwise Android support will fail.\n\ncordova-cli has been tested on Mas OS X, Linux, Windows 7 and Windows 8.\n\n# Install\n\n    npm install -g cordova\n\n# Getting Started\n\ncordova-cli has a single global `create` command that creates new cordova projects into a specified directory. Once you create a project, `cd` into it and you can execute a variety of project-level commands. Completely inspired by git\'s interface.\n\n## Global Command\n\n- `create <directory> [<id> [<name>]]` create a new cordova project with optional name and id (package name, reverse-domain style)\n\n<a name="project_commands" />\n## Project Commands\n\n- `platform [ls | list]` list all platforms the project will build to\n- `platform add <platform> [<platform> ...]` add one (or more) platforms as a build target for the project\n- `platform [rm | remove] <platform> [<platform> ...]` removes one (or more) platforms as a build target for the project\n- `plugin [ls | list]` list all plugins added to the project\n- `plugin add <path-to-plugin> [<path-to-plugin> ...]` add one (or more) plugins to the project\n- `plugin [rm | remove] <plugin-name> [<plugin-name> ...]` remove one (or more) added plugins\n- `prepare [platform...]` copies files into the specified platforms, or all platforms. it is then ready for building by Eclipse/Xcode/etc.\n- `compile [platform...]` compiles the app into a binary for each added platform. With no parameters, builds for all platforms, otherwise builds for the specified platforms.\n- `build [<platform> [<platform> [...]]]` an alias for `cordova prepare` followed by `cordova compile`\n- `emulate [<platform> [<platform> [...]]]` launch emulators and deploy app to them. With no parameters emulates for all platforms added to the project, otherwise emulates for the specified platforms\n- `serve <platform> [port]` launch a local web server for that platform\'s www directory on the given port (default 8000).\n\n### Optional Flags\n\n- `-d` or `--verbose` will pipe out more verbose output to your shell. You can also subscribe to `log` and `warn` events if you are consuming cordova-cli as a node module by calling `cordova.on(\'log\', function() {})` or `cordova.on(\'warn\', function() {})`.\n- `-v` or `--version` will print out the version of your cordova-cli install.\n\n# Project Directory Structure\nA Cordova application built with cordova-cli will have the following directory structure:\n\n    myApp/\n    |--.cordova/\n    |-- merges/\n    | | |-- android/\n    | | |-- blackberry/\n    | | `-- ios/\n    |-- www/\n    | `-- config.xml\n    |-- platforms/\n    | |-- android/\n    | |-- blackberry/\n    | `-- ios/\n    `-- plugins/\n\n## .cordova/\nThis directory identifies a tree as a cordova project. Simple configuration information is stored in here (such as BlackBerry environment variables).\n\nCommands other than `create` operate against the project directory itself, rather than the current directory - a search up the current directory\'s parents is made to find the project directory. Thus, any command (other than `create`) can be used from any subdirectory whose parent is a cordova project directory (same as git).\n\n## merges/\nPlatform-specific web assets (HTML, CSS and JavaScript files) are contained within appropriate subfolders in this directory. These are deployed during a `prepare` to the appropriate native directory.  Files placed under `merges/` will override matching files in the `www/` folder for the relevant platform. A quick example, assuming a project structure of:\n\n    merges/\n    |-- ios/\n    | `-- app.js\n    |-- android/\n    | `-- android.js\n    www/\n    `-- app.js\n\nAfter building the Android and iOS projects, the Android application will contain both `app.js` and `android.js`. However, the iOS application will only contain an `app.js`, and it will be the one from `merges/ios/app.js`, overriding the "common" `app.js` located inside `www/`.\n\n## www/\n\nContains the project\'s web artifacts, such as .html, .css and .js files. These are your main application assets. They will be copied on a `cordova prepare` to each platform\'s www directory.\n\n### Your Blanket: config.xml\n\nThis file is what you should be editing to modify your application\'s metadata. Any time you run any cordova-cli commands, the tool will look at the contents of `config.xml` and use all relevant info from this file to define native application information. cordova-cli supports changing your application\'s data via the following elements inside the `config.xml` file:\n\n- The user-facing name can be modified via the contents of the `<name>` element.\n- The package name (AKA bundle identifier or application id) can be modified via the `id` attribute from the top-level `<widget>` element.\n- The version can be modified via the `version` attribute from the top-level `<widget>` element.\n- The whitelist can be modified using the `<access>` elements. Make sure the `origin` attribute of your `<access>` element points to a valid URL (you can use `*` as wildcard). For more information on the whitelisting syntax, see the [docs.phonegap.com](http://docs.phonegap.com/en/2.2.0/guide_whitelist_index.md.html#Domain%20Whitelist%20Guide). You can use either attribute `uri` ([BlackBerry-proprietary](https://developer.blackberry.com/html5/documentation/access_element_834677_11.html)) or `origin` ([standards-compliant](http://www.w3.org/TR/widgets-access/#attributes)) to denote the domain.\n- Platform-specific preferences can be customized via `<preference>` tags. See [docs.phonegap.com](http://docs.phonegap.com/en/2.3.0/guide_project-settings_index.md.html#Project%20Settings) for a list of preferences you can use.\n\n## platforms/\nPlatforms added to your application will have the native application project structures laid out within this directory.\n\n## plugins/\nAny added plugins will be extracted or copied into this directory.\n\n# Hooks\n\nProjects created by cordova-cli have `before` and `after` hooks for each [project command](#project_commands).\n\nThere are two types of hooks: project-specific ones and module-level ones. Both of these types of hooks receive the project root folder as a parameter.\n\n## Project-specific Hooks\n\nThese are located under the `.cordova/hooks` directory in the root of your cordova project. Any scripts you add to these directories will be executed before and after the appropriate commands. Useful for integrating your own build systems or integrating with version control systems. __Remember__: make your scripts executable.\n\n### Examples\n\n- [`before_build` hook for jade template compiling](https://gist.github.com/4100866) courtesy of [dpogue](http://github.com/dpogue)\n\n## Module-level Hooks\n\nIf you are using cordova-cli as a module within a larger node application, you can also use the standard `EventEmitter` methods to attach to the events. The events include `before_build`, `before_compile`, `before_docs`, `before_emulate`, `before_run`, `before_platform_add`, `before_library_download`, `before_platform_ls`, `before_platform_rm`, `before_plugin_add`, `before_plugin_ls`, `before_plugin_rm` and `before_prepare`. There is also a `library_download` progress event. Additionally, there are `after_` flavours of all the above events.\n\nOnce you `require(\'cordova\')` in your node project, you will have the usual `EventEmitter` methods available (`on`, `off` or `removeListener`, `removeAllListeners`, and `emit` or `trigger`).\n\n# Examples\n\n## Creating a new cordova project\nThis example shows how to create a project from scratch named KewlApp with iOS and Android platform support, and includes a plugin named Kewlio. The project will live in ~/KewlApp\n\n    cordova create ~/KewlApp KewlApp\n    cd ~/KewlApp\n    cordova platform add ios android\n    cordova plugin add http://example.org/Kewlio-1.2.3.tar.gz\n    cordova build \n\nThe directory structure of KewlApp now looks like this:\n\n    KewlApp/\n    |-- .cordova/\n    |-- merges/\n    | |-- android/\n    | `-- ios/\n    |-- www/\n    | `-- index.html\n    |-- platforms/\n    | |-- android/\n    | | `-- …\n    | `-- ios/\n    |   `-- …\n    `-- plugins/\n      `-- Kewlio/\n\n# Contributing\n\n## Running Tests\n\n    npm test\n\n## TO-DO + Issues\n\nPlease check [Cordova issues with the CLI Component](http://issues.cordova.io). If you find issues with this tool, please be so kind as to include relevant information needed to debug issues such as:\n\n- Your operating system and version\n- The application name, directory location, and identifier used with `create`\n- Which mobile SDKs you have installed, and which version. Related to this: which Xcode version if you are submitting issues related to iOS\n- Any error stack traces you received\n\n## Contributors\n\nThanks to everyone for contributing! For a list of people involved, please see the `package.json` file.\n',
+681 silly resolved     readmeFilename: 'README.md',
+681 silly resolved     _id: 'cordova@2.9.0rc1',
+681 silly resolved     _from: 'cordova@2.9.0rc1' },
+681 silly resolved   { name: 'qrcode-terminal',
+681 silly resolved     keywords: [ 'ansi', 'ascii', 'qrcode', 'console' ],
+681 silly resolved     version: '0.9.4',
+681 silly resolved     description: 'QRCodes, in the terminal',
+681 silly resolved     homepage: 'https://github.com/gtanner/qrcode-terminal',
+681 silly resolved     repository:
+681 silly resolved      { type: 'git',
+681 silly resolved        url: 'https://github.com/gtanner/qrcode-terminal' },
+681 silly resolved     contributors: [ [Object], [Object] ],
+681 silly resolved     licenses: [ [Object] ],
+681 silly resolved     main: './lib/main',
+681 silly resolved     bin: { 'qrcode-terminal': './bin/qrcode-terminal.js' },
+681 silly resolved     preferGlobal: false,
+681 silly resolved     devDependencies: { sinon: '*', mocha: '*', 'expect.js': '*', jshint: '*' },
+681 silly resolved     scripts: { test: './node_modules/jshint/bin/jshint lib vendor && node example/basic.js && ./node_modules/mocha/bin/mocha -R nyan' },
+681 silly resolved     readme: '# QRCode Terminal Edition [![Build Status][travis-ci-img]][travis-ci-url]\n\n> Going where no QRCode has gone before.\n\n![Basic Example][basic-example-img]\n\n# Node Library\n\n## Install\n\nCan be installed with:\n\n    $ npm install qrcode-terminal\n\nand used:\n\n    var qrcode = require(\'qrcode-terminal\');\n\n## Usage\n\nTo display some data to the terminal just call:\n\n    qrcode.generate(\'This will be a QRCode, eh!\');\n\nIf you don\'t want to display to the terminal but just want to string you can provide a callback:\n\n    qrcode.generate(\'http://github.com\', function (qrcode) {\n        console.log(qrcode);\n    });\n\n# Command-Line\n\n## Install\n\n    $ npm install -g qrcode-terminal\n\n## Usage\n\n    $ qrcode-terminal --help\n    $ qrcode-terminal \'http://github.com\'\n\n# Support\n\n- OS X\n- Linux\n- Windows\n\n# Server-side\n\n[node-qrcode][node-qrcode-url] is a popular server-side QRCode generator that\nrenders to a `canvas` object.\n\n# Developing\n\nTo setup the development envrionment run `npm install`\n\nTo run tests run `npm test`\n\n# Contributers\n\n    Gord Tanner <gtanner@gmail.com>\n    Micheal Brooks <michael@michaelbrooks.ca>\n\n[travis-ci-img]: https://travis-ci.org/gtanner/qrcode-terminal.png\n[travis-ci-url]: https://travis-ci.org/gtanner/qrcode-terminal\n[basic-example-img]: https://raw.github.com/gtanner/qrcode-terminal/master/example/basic.png\n[node-qrcode-url]: https://github.com/soldair/node-qrcode\n\n',
+681 silly resolved     readmeFilename: 'README.md',
+681 silly resolved     _id: 'qrcode-terminal@0.9.4',
+681 silly resolved     _from: 'qrcode-terminal@0.9.x' },
+681 silly resolved   { name: 'semver',
+681 silly resolved     version: '1.1.0',
+681 silly resolved     description: 'The semantic version parser used by npm.',
+681 silly resolved     main: 'semver.js',
+681 silly resolved     scripts: { test: 'tap test.js' },
+681 silly resolved     devDependencies: { tap: '0.x >=0.0.4' },
+681 silly resolved     license:
+681 silly resolved      { type: 'MIT',
+681 silly resolved        url: 'https://github.com/isaacs/semver/raw/master/LICENSE' },
+681 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-semver.git' },
+681 silly resolved     bin: { semver: './bin/semver' },
+681 silly resolved     readme: 'semver(1) -- The semantic versioner for npm\n===========================================\n\n## Usage\n\n    $ npm install semver\n\n    semver.valid(\'1.2.3\') // true\n    semver.valid(\'a.b.c\') // false\n    semver.clean(\'  =v1.2.3   \') // \'1.2.3\'\n    semver.satisfies(\'1.2.3\', \'1.x || >=2.5.0 || 5.0.0 - 7.2.3\') // true\n    semver.gt(\'1.2.3\', \'9.8.7\') // false\n    semver.lt(\'1.2.3\', \'9.8.7\') // true\n\nAs a command-line utility:\n\n    $ semver -h\n\n    Usage: semver -v <version> [-r <range>]\n    Test if version(s) satisfy the supplied range(s),\n    and sort them.\n\n    Multiple versions or ranges may be supplied.\n\n    Program exits successfully if any valid version satisfies\n    all supplied ranges, and prints all satisfying versions.\n\n    If no versions are valid, or ranges are not satisfied,\n    then exits failure.\n\n    Versions are printed in ascending order, so supplying\n    multiple versions to the utility will just sort them.\n\n## Versions\n\nA version is the following things, in this order:\n\n* a number (Major)\n* a period\n* a number (minor)\n* a period\n* a number (patch)\n* OPTIONAL: a hyphen, followed by a number (build)\n* OPTIONAL: a collection of pretty much any non-whitespace characters\n  (tag)\n\nA leading `"="` or `"v"` character is stripped off and ignored.\n\n## Comparisons\n\nThe ordering of versions is done using the following algorithm, given\ntwo versions and asked to find the greater of the two:\n\n* If the majors are numerically different, then take the one\n  with a bigger major number. `2.3.4 > 1.3.4`\n* If the minors are numerically different, then take the one\n  with the bigger minor number. `2.3.4 > 2.2.4`\n* If the patches are numerically different, then take the one with the\n  bigger patch number. `2.3.4 > 2.3.3`\n* If only one of them has a build number, then take the one with the\n  build number.  `2.3.4-0 > 2.3.4`\n* If they both have build numbers, and the build numbers are numerically\n  different, then take the one with the bigger build number.\n  `2.3.4-10 > 2.3.4-9`\n* If only one of them has a tag, then take the one without the tag.\n  `2.3.4 > 2.3.4-beta`\n* If they both have tags, then take the one with the lexicographically\n  larger tag.  `2.3.4-beta > 2.3.4-alpha`\n* At this point, they\'re equal.\n\n## Ranges\n\nThe following range styles are supported:\n\n* `>1.2.3` Greater than a specific version.\n* `<1.2.3` Less than\n* `1.2.3 - 2.3.4` := `>=1.2.3 <=2.3.4`\n* `~1.2.3` := `>=1.2.3 <1.3.0`\n* `~1.2` := `>=1.2.0 <2.0.0`\n* `~1` := `>=1.0.0 <2.0.0`\n* `1.2.x` := `>=1.2.0 <1.3.0`\n* `1.x` := `>=1.0.0 <2.0.0`\n\nRanges can be joined with either a space (which implies "and") or a\n`||` (which implies "or").\n\n## Functions\n\n* valid(v): Return the parsed version, or null if it\'s not valid.\n* inc(v, release): Return the version incremented by the release type\n  (major, minor, patch, or build), or null if it\'s not valid.\n\n### Comparison\n\n* gt(v1, v2): `v1 > v2`\n* gte(v1, v2): `v1 >= v2`\n* lt(v1, v2): `v1 < v2`\n* lte(v1, v2): `v1 <= v2`\n* eq(v1, v2): `v1 == v2` This is true if they\'re logically equivalent,\n  even if they\'re not the exact same string.  You already know how to\n  compare strings.\n* neq(v1, v2): `v1 != v2` The opposite of eq.\n* cmp(v1, comparator, v2): Pass in a comparison string, and it\'ll call\n  the corresponding function above.  `"==="` and `"!=="` do simple\n  string comparison, but are included for completeness.  Throws if an\n  invalid comparison string is provided.\n* compare(v1, v2): Return 0 if v1 == v2, or 1 if v1 is greater, or -1 if\n  v2 is greater.  Sorts in ascending order if passed to Array.sort().\n* rcompare(v1, v2): The reverse of compare.  Sorts an array of versions\n  in descending order when passed to Array.sort().\n\n\n### Ranges\n\n* validRange(range): Return the valid range or null if it\'s not valid\n* satisfies(version, range): Return true if the version satisfies the\n  range.\n* maxSatisfying(versions, range): Return the highest version in the list\n  that satisfies the range, or null if none of them do.\n',
+681 silly resolved     readmeFilename: 'README.md',
+681 silly resolved     _id: 'semver@1.1.0',
+681 silly resolved     _from: 'semver@1.1.0' },
+681 silly resolved   { name: 'optimist',
+681 silly resolved     version: '0.3.7',
+681 silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+681 silly resolved     main: './index.js',
+681 silly resolved     dependencies: { wordwrap: '~0.0.2' },
+681 silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.4.0' },
+681 silly resolved     scripts: { test: 'tap ./test/*.js' },
+681 silly resolved     repository:
+681 silly resolved      { type: 'git',
+681 silly resolved        url: 'http://github.com/substack/node-optimist.git' },
+681 silly resolved     keywords:
+681 silly resolved      [ 'argument',
+681 silly resolved        'args',
+681 silly resolved        'option',
+681 silly resolved        'parser',
+681 silly resolved        'parsing',
+681 silly resolved        'cli',
+681 silly resolved        'command' ],
+681 silly resolved     author:
+681 silly resolved      { name: 'James Halliday',
+681 silly resolved        email: 'mail@substack.net',
+681 silly resolved        url: 'http://substack.net' },
+681 silly resolved     license: 'MIT/X11',
+681 silly resolved     engine: { node: '>=0.4' },
+681 silly resolved     readme: 'optimist\n========\n\nOptimist is a node.js library for option parsing for people who hate option\nparsing. More specifically, this module is for people who like all the --bells\nand -whistlz of program usage but think optstrings are a waste of time.\n\nWith optimist, option parsing doesn\'t have to suck (as much).\n\n[![build status](https://secure.travis-ci.org/substack/node-optimist.png)](http://travis-ci.org/substack/node-optimist)\n\nexamples\n========\n\nWith Optimist, the options are just a hash! No optstrings attached.\n-------------------------------------------------------------------\n\nxup.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\n\nif (argv.rif - 5 * argv.xup > 7.138) {\n    console.log(\'Buy more riffiwobbles\');\n}\nelse {\n    console.log(\'Sell the xupptumblers\');\n}\n````\n\n***\n\n    $ ./xup.js --rif=55 --xup=9.52\n    Buy more riffiwobbles\n    \n    $ ./xup.js --rif 12 --xup 8.1\n    Sell the xupptumblers\n\n![This one\'s optimistic.](http://substack.net/images/optimistic.png)\n\nBut wait! There\'s more! You can do short options:\n-------------------------------------------------\n \nshort.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\n````\n\n***\n\n    $ ./short.js -x 10 -y 21\n    (10,21)\n\nAnd booleans, both long and short (and grouped):\n----------------------------------\n\nbool.js:\n\n````javascript\n#!/usr/bin/env node\nvar util = require(\'util\');\nvar argv = require(\'optimist\').argv;\n\nif (argv.s) {\n    util.print(argv.fr ? \'Le chat dit: \' : \'The cat says: \');\n}\nconsole.log(\n    (argv.fr ? \'miaou\' : \'meow\') + (argv.p ? \'.\' : \'\')\n);\n````\n\n***\n\n    $ ./bool.js -s\n    The cat says: meow\n    \n    $ ./bool.js -sp\n    The cat says: meow.\n\n    $ ./bool.js -sp --fr\n    Le chat dit: miaou.\n\nAnd non-hypenated options too! Just use `argv._`!\n-------------------------------------------------\n \nnonopt.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\nconsole.log(argv._);\n````\n\n***\n\n    $ ./nonopt.js -x 6.82 -y 3.35 moo\n    (6.82,3.35)\n    [ \'moo\' ]\n    \n    $ ./nonopt.js foo -x 0.54 bar -y 1.12 baz\n    (0.54,1.12)\n    [ \'foo\', \'bar\', \'baz\' ]\n\nPlus, Optimist comes with .usage() and .demand()!\n-------------------------------------------------\n\ndivide.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Usage: $0 -x [num] -y [num]\')\n    .demand([\'x\',\'y\'])\n    .argv;\n\nconsole.log(argv.x / argv.y);\n````\n\n***\n \n    $ ./divide.js -x 55 -y 11\n    5\n    \n    $ node ./divide.js -x 4.91 -z 2.51\n    Usage: node ./divide.js -x [num] -y [num]\n\n    Options:\n      -x  [required]\n      -y  [required]\n\n    Missing required arguments: y\n\nEVEN MORE HOLY COW\n------------------\n\ndefault_singles.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default(\'x\', 10)\n    .default(\'y\', 10)\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_singles.js -x 5\n    15\n\ndefault_hash.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default({ x : 10, y : 10 })\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_hash.js -y 7\n    17\n\nAnd if you really want to get all descriptive about it...\n---------------------------------------------------------\n\nboolean_single.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean(\'v\')\n    .argv\n;\nconsole.dir(argv);\n````\n\n***\n\n    $ ./boolean_single.js -v foo bar baz\n    true\n    [ \'bar\', \'baz\', \'foo\' ]\n\nboolean_double.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean([\'x\',\'y\',\'z\'])\n    .argv\n;\nconsole.dir([ argv.x, argv.y, argv.z ]);\nconsole.dir(argv._);\n````\n\n***\n\n    $ ./boolean_double.js -x -z one two three\n    [ true, false, true ]\n    [ \'one\', \'two\', \'three\' ]\n\nOptimist is here to help...\n---------------------------\n\nYou can describe parameters for help messages and set aliases. Optimist figures\nout how to format a handy help string automatically.\n\nline_count.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Count the lines in a file.\\nUsage: $0\')\n    .demand(\'f\')\n    .alias(\'f\', \'file\')\n    .describe(\'f\', \'Load a file\')\n    .argv\n;\n\nvar fs = require(\'fs\');\nvar s = fs.createReadStream(argv.file);\n\nvar lines = 0;\ns.on(\'data\', function (buf) {\n    lines += buf.toString().match(/\\n/g).length;\n});\n\ns.on(\'end\', function () {\n    console.log(lines);\n});\n````\n\n***\n\n    $ node line_count.js\n    Count the lines in a file.\n    Usage: node ./line_count.js\n\n    Options:\n      -f, --file  Load a file  [required]\n\n    Missing required arguments: f\n\n    $ node line_count.js --file line_count.js \n    20\n    \n    $ node line_count.js -f line_count.js \n    20\n\nmethods\n=======\n\nBy itself,\n\n````javascript\nrequire(\'optimist\').argv\n`````\n\nwill use `process.argv` array to construct the `argv` object.\n\nYou can pass in the `process.argv` yourself:\n\n````javascript\nrequire(\'optimist\')([ \'-x\', \'1\', \'-y\', \'2\' ]).argv\n````\n\nor use .parse() to do the same thing:\n\n````javascript\nrequire(\'optimist\').parse([ \'-x\', \'1\', \'-y\', \'2\' ])\n````\n\nThe rest of these methods below come in just before the terminating `.argv`.\n\n.alias(key, alias)\n------------------\n\nSet key names as equivalent such that updates to a key will propagate to aliases\nand vice-versa.\n\nOptionally `.alias()` can take an object that maps keys to aliases.\n\n.default(key, value)\n--------------------\n\nSet `argv[key]` to `value` if no option was specified on `process.argv`.\n\nOptionally `.default()` can take an object that maps keys to default values.\n\n.demand(key)\n------------\n\nIf `key` is a string, show the usage information and exit if `key` wasn\'t\nspecified in `process.argv`.\n\nIf `key` is a number, demand at least as many non-option arguments, which show\nup in `argv._`.\n\nIf `key` is an Array, demand each element.\n\n.describe(key, desc)\n--------------------\n\nDescribe a `key` for the generated usage information.\n\nOptionally `.describe()` can take an object that maps keys to descriptions.\n\n.options(key, opt)\n------------------\n\nInstead of chaining together `.alias().demand().default()`, you can specify\nkeys in `opt` for each of the chainable methods.\n\nFor example:\n\n````javascript\nvar argv = require(\'optimist\')\n    .options(\'f\', {\n        alias : \'file\',\n        default : \'/etc/passwd\',\n    })\n    .argv\n;\n````\n\nis the same as\n\n````javascript\nvar argv = require(\'optimist\')\n    .alias(\'f\', \'file\')\n    .default(\'f\', \'/etc/passwd\')\n    .argv\n;\n````\n\nOptionally `.options()` can take an object that maps keys to `opt` parameters.\n\n.usage(message)\n---------------\n\nSet a usage message to show which commands to use. Inside `message`, the string\n`$0` will get interpolated to the current script name or node command for the\npresent script similar to how `$0` works in bash or perl.\n\n.check(fn)\n----------\n\nCheck that certain conditions are met in the provided arguments.\n\nIf `fn` throws or returns `false`, show the thrown error, usage information, and\nexit.\n\n.boolean(key)\n-------------\n\nInterpret `key` as a boolean. If a non-flag option follows `key` in\n`process.argv`, that string won\'t get set as the value of `key`.\n\nIf `key` never shows up as a flag in `process.arguments`, `argv[key]` will be\n`false`.\n\nIf `key` is an Array, interpret all the elements as booleans.\n\n.string(key)\n------------\n\nTell the parser logic not to interpret `key` as a number or boolean.\nThis can be useful if you need to preserve leading zeros in an input.\n\nIf `key` is an Array, interpret all the elements as strings.\n\n.wrap(columns)\n--------------\n\nFormat usage output to wrap at `columns` many columns.\n\n.help()\n-------\n\nReturn the generated usage string.\n\n.showHelp(fn=console.error)\n---------------------------\n\nPrint the usage data using `fn` for printing.\n\n.parse(args)\n------------\n\nParse `args` instead of `process.argv`. Returns the `argv` object.\n\n.argv\n-----\n\nGet the arguments as a plain old object.\n\nArguments without a corresponding flag show up in the `argv._` array.\n\nThe script name or node command is available at `argv.$0` similarly to how `$0`\nworks in bash or perl.\n\nparsing tricks\n==============\n\nstop parsing\n------------\n\nUse `--` to stop parsing flags and stuff the remainder into `argv._`.\n\n    $ node examples/reflect.js -a 1 -b 2 -- -c 3 -d 4\n    { _: [ \'-c\', \'3\', \'-d\', \'4\' ],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: 1,\n      b: 2 }\n\nnegate fields\n-------------\n\nIf you want to explicity set a field to false instead of just leaving it\nundefined or to override a default you can do `--no-key`.\n\n    $ node examples/reflect.js -a --no-b\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: true,\n      b: false }\n\nnumbers\n-------\n\nEvery argument that looks like a number (`!isNaN(Number(arg))`) is converted to\none. This way you can just `net.createConnection(argv.port)` and you can add\nnumbers out of `argv` with `+` without having that mean concatenation,\nwhich is super frustrating.\n\nduplicates\n----------\n\nIf you specify a flag multiple times it will get turned into an array containing\nall the values in order.\n\n    $ node examples/reflect.js -x 5 -x 8 -x 0\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n        x: [ 5, 8, 0 ] }\n\ndot notation\n------------\n\nWhen you use dots (`.`s) in argument names, an implicit object path is assumed.\nThis lets you organize arguments into nested objects.\n\n     $ node examples/reflect.js --foo.bar.baz=33 --foo.quux=5\n     { _: [],\n       \'$0\': \'node ./examples/reflect.js\',\n         foo: { bar: { baz: 33 }, quux: 5 } }\n\ninstallation\n============\n\nWith [npm](http://github.com/isaacs/npm), just do:\n    npm install optimist\n \nor clone this project on github:\n\n    git clone http://github.com/substack/node-optimist.git\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso),\njust do:\n    \n    expresso\n\ninspired By\n===========\n\nThis module is loosely inspired by Perl\'s\n[Getopt::Casual](http://search.cpan.org/~photo/Getopt-Casual-0.13.1/Casual.pm).\n',
+681 silly resolved     readmeFilename: 'readme.markdown',
+681 silly resolved     _id: 'optimist@0.3.7',
+681 silly resolved     _from: 'optimist@0.3.x' },
+681 silly resolved   { name: 'shelljs',
+681 silly resolved     version: '0.0.9',
+681 silly resolved     author: { name: 'Artur Adib', email: 'aadib@mozilla.com' },
+681 silly resolved     description: 'Portable Unix shell commands for Node.js',
+681 silly resolved     keywords: [ 'unix', 'shell', 'makefile', 'make', 'jake', 'synchronous' ],
+681 silly resolved     repository: { type: 'git', url: 'git://github.com/arturadib/shelljs.git' },
+681 silly resolved     homepage: 'http://github.com/arturadib/shelljs',
+681 silly resolved     main: './shell.js',
+681 silly resolved     scripts: { test: 'node scripts/run-tests' },
+681 silly resolved     bin: { shjs: './bin/shjs' },
+681 silly resolved     dependencies: {},
+681 silly resolved     devDependencies: {},
+681 silly resolved     optionalDependencies: {},
+681 silly resolved     engines: { node: '*' },
+681 silly resolved     readme: '# ShellJS - Unix shell commands for Node.js [![Build Status](https://secure.travis-ci.org/arturadib/shelljs.png)](http://travis-ci.org/arturadib/shelljs)\n\nShellJS is a portable (**Windows included**) implementation of Unix shell commands on top of the Node.js API. You can use it to eliminate your shell script\'s dependency on Unix while still keeping its familiar and powerful commands. You can also install it globally so you can run it from outside Node projects - say goodbye to those gnarly Bash scripts!\n\nThe project is [unit-tested](http://travis-ci.org/arturadib/shelljs) and battled-tested in projects like:\n\n+ [PDF.js](http://github.com/mozilla/pdf.js) - Firefox\'s next-gen PDF reader\n+ [Firebug](http://getfirebug.com/) - Firefox\'s infamous debugger\n+ [JSHint](http://jshint.com) - Most popular JavaScript linter\n+ [Yeoman](http://yeoman.io/) - Web application stack and development tool\n+ [Deployd.com](http://deployd.com) - Open source PaaS for quick API backend generation\n\nand [many more](https://npmjs.org/browse/depended/shelljs).\n\n## Installing\n\nVia npm:\n\n```bash\n$ npm install [-g] shelljs\n```\n\nIf the global option `-g` is specified, the binary `shjs` will be installed. This makes it possible to\nrun ShellJS scripts much like any shell script from the command line, i.e. without requiring a `node_modules` folder:\n\n```bash\n$ shjs my_script\n```\n\nYou can also just copy `shell.js` into your project\'s directory, and `require()` accordingly.\n\n\n## Examples\n\n### JavaScript\n\n```javascript\nrequire(\'shelljs/global\');\n\nif (!which(\'git\')) {\n  echo(\'Sorry, this script requires git\');\n  exit(1);\n}\n\n// Copy files to release dir\nmkdir(\'-p\', \'out/Release\');\ncp(\'-R\', \'stuff/*\', \'out/Release\');\n\n// Replace macros in each .js file\ncd(\'lib\');\nls(\'*.js\').forEach(function(file) {\n  sed(\'-i\', \'BUILD_VERSION\', \'v0.1.2\', file);\n  sed(\'-i\', /.*REMOVE_THIS_LINE.*\\n/, \'\', file);\n  sed(\'-i\', /.*REPLACE_LINE_WITH_MACRO.*\\n/, cat(\'macro.js\'), file);\n});\ncd(\'..\');\n\n// Run external tool synchronously\nif (exec(\'git commit -am "Auto-commit"\').code !== 0) {\n  echo(\'Error: Git commit failed\');\n  exit(1);\n}\n```\n\n### CoffeeScript\n\n```coffeescript\nrequire \'shelljs/global\'\n\nif not which \'git\'\n  echo \'Sorry, this script requires git\'\n  exit 1\n\n# Copy files to release dir\nmkdir \'-p\', \'out/Release\'\ncp \'-R\', \'stuff/*\', \'out/Release\'\n\n# Replace macros in each .js file\ncd \'lib\'\nfor file in ls \'*.js\'\n  sed \'-i\', \'BUILD_VERSION\', \'v0.1.2\', file\n  sed \'-i\', /.*REMOVE_THIS_LINE.*\\n/, \'\', file\n  sed \'-i\', /.*REPLACE_LINE_WITH_MACRO.*\\n/, cat \'macro.js\', file\ncd \'..\'\n\n# Run external tool synchronously\nif (exec \'git commit -am "Auto-commit"\').code != 0\n  echo \'Error: Git commit failed\'\n  exit 1\n```\n\n## Global vs. Local\n\nThe example above uses the convenience script `shelljs/global` to reduce verbosity. If polluting your global namespace is not desirable, simply require `shelljs`.\n\nExample:\n\n```javascript\nvar shell = require(\'shelljs\');\nshell.echo(\'hello world\');\n```\n\n## Make tool\n\nA convenience script `shelljs/make` is also provided to mimic the behavior of a Unix Makefile. In this case all shell objects are global, and command line arguments will cause the script to execute only the corresponding function in the global `target` object. To avoid redundant calls, target functions are executed only once per script.\n\nExample (CoffeeScript):\n\n```coffeescript\nrequire \'shelljs/make\'\n\ntarget.all = ->\n  target.bundle()\n  target.docs()\n\ntarget.bundle = ->\n  cd __dirname\n  mkdir \'build\'\n  cd \'lib\'\n  (cat \'*.js\').to \'../build/output.js\'\n\ntarget.docs = ->\n  cd __dirname\n  mkdir \'docs\'\n  cd \'lib\'\n  for file in ls \'*.js\'\n    text = grep \'//@\', file     # extract special comments\n    text.replace \'//@\', \'\'      # remove comment tags\n    text.to \'docs/my_docs.md\'\n```\n\nTo run the target `all`, call the above script without arguments: `$ node make`. To run the target `docs`: `$ node make docs`, and so on.\n\n\n\n<!-- \n\n  DO NOT MODIFY BEYOND THIS POINT - IT\'S AUTOMATICALLY GENERATED\n\n-->\n\n\n## Command reference\n\n\nAll commands run synchronously, unless otherwise stated.\n\n\n### cd(\'dir\')\nChanges to directory `dir` for the duration of the script\n\n### pwd()\nReturns the current directory.\n\n### ls([options ,] path [,path ...])\n### ls([options ,] path_array)\nAvailable options:\n\n+ `-R`: recursive\n+ `-A`: all files (include files beginning with `.`, except for `.` and `..`)\n\nExamples:\n\n```javascript\nls(\'projs/*.js\');\nls(\'-R\', \'/users/me\', \'/tmp\');\nls(\'-R\', [\'/users/me\', \'/tmp\']); // same as above\n```\n\nReturns array of files in the given path, or in current directory if no path provided.\n\n### find(path [,path ...])\n### find(path_array)\nExamples:\n\n```javascript\nfind(\'src\', \'lib\');\nfind([\'src\', \'lib\']); // same as above\nfind(\'.\').filter(function(file) { return file.match(/\\.js$/); });\n```\n\nReturns array of all files (however deep) in the given paths.\n\nThe main difference from `ls(\'-R\', path)` is that the resulting file names \ninclude the base directories, e.g. `lib/resources/file1` instead of just `file1`.\n\n### cp([options ,] source [,source ...], dest)\n### cp([options ,] source_array, dest)\nAvailable options:\n\n+ `-f`: force\n+ `-r, -R`: recursive\n\nExamples:\n\n```javascript\ncp(\'file1\', \'dir1\');\ncp(\'-Rf\', \'/tmp/*\', \'/usr/local/*\', \'/home/tmp\');\ncp(\'-Rf\', [\'/tmp/*\', \'/usr/local/*\'], \'/home/tmp\'); // same as above\n```\n\nCopies files. The wildcard `*` is accepted.\n\n### rm([options ,] file [, file ...])\n### rm([options ,] file_array)\nAvailable options:\n\n+ `-f`: force\n+ `-r, -R`: recursive\n\nExamples:\n\n```javascript\nrm(\'-rf\', \'/tmp/*\');\nrm(\'some_file.txt\', \'another_file.txt\');\nrm([\'some_file.txt\', \'another_file.txt\']); // same as above\n```\n\nRemoves files. The wildcard `*` is accepted. \n\n### mv(source [, source ...], dest\')\n### mv(source_array, dest\')\nAvailable options:\n\n+ `f`: force\n\nExamples:\n\n```javascript\nmv(\'-f\', \'file\', \'dir/\');\nmv(\'file1\', \'file2\', \'dir/\');\nmv([\'file1\', \'file2\'], \'dir/\'); // same as above\n```\n\nMoves files. The wildcard `*` is accepted.\n\n### mkdir([options ,] dir [, dir ...])\n### mkdir([options ,] dir_array)\nAvailable options:\n\n+ `p`: full path (will create intermediate dirs if necessary)\n\nExamples:\n\n```javascript\nmkdir(\'-p\', \'/tmp/a/b/c/d\', \'/tmp/e/f/g\');\nmkdir(\'-p\', [\'/tmp/a/b/c/d\', \'/tmp/e/f/g\']); // same as above\n```\n\nCreates directories.\n\n### test(expression)\nAvailable expression primaries:\n\n+ `\'-b\', \'path\'`: true if path is a block device\n+ `\'-c\', \'path\'`: true if path is a character device\n+ `\'-d\', \'path\'`: true if path is a directory\n+ `\'-e\', \'path\'`: true if path exists\n+ `\'-f\', \'path\'`: true if path is a regular file\n+ `\'-L\', \'path\'`: true if path is a symboilc link\n+ `\'-p\', \'path\'`: true if path is a pipe (FIFO)\n+ `\'-S\', \'path\'`: true if path is a socket\n\nExamples:\n\n```javascript\nif (test(\'-d\', path)) { /* do something with dir */ };\nif (!test(\'-f\', path)) continue; // skip if it\'s a regular file\n```\n\nEvaluates expression using the available primaries and returns corresponding value.\n\n### cat(file [, file ...])\n### cat(file_array)\n\nExamples:\n\n```javascript\nvar str = cat(\'file*.txt\');\nvar str = cat(\'file1\', \'file2\');\nvar str = cat([\'file1\', \'file2\']); // same as above\n```\n\nReturns a string containing the given file, or a concatenated string\ncontaining the files if more than one file is given (a new line character is\nintroduced between each file). Wildcard `*` accepted.\n\n### \'string\'.to(file)\n\nExamples:\n\n```javascript\ncat(\'input.txt\').to(\'output.txt\');\n```\n\nAnalogous to the redirection operator `>` in Unix, but works with JavaScript strings (such as\nthose returned by `cat`, `grep`, etc). _Like Unix redirections, `to()` will overwrite any existing file!_\n\n### sed([options ,] search_regex, replace_str, file)\nAvailable options:\n\n+ `-i`: Replace contents of \'file\' in-place. _Note that no backups will be created!_\n\nExamples:\n\n```javascript\nsed(\'-i\', \'PROGRAM_VERSION\', \'v0.1.3\', \'source.js\');\nsed(/.*DELETE_THIS_LINE.*\\n/, \'\', \'source.js\');\n```\n\nReads an input string from `file` and performs a JavaScript `replace()` on the input\nusing the given search regex and replacement string. Returns the new string after replacement.\n\n### grep([options ,] regex_filter, file [, file ...])\n### grep([options ,] regex_filter, file_array)\nAvailable options:\n\n+ `-v`: Inverse the sense of the regex and print the lines not matching the criteria.\n\nExamples:\n\n```javascript\ngrep(\'-v\', \'GLOBAL_VARIABLE\', \'*.js\');\ngrep(\'GLOBAL_VARIABLE\', \'*.js\');\n```\n\nReads input string from given files and returns a string containing all lines of the \nfile that match the given `regex_filter`. Wildcard `*` accepted.\n\n### which(command)\n\nExamples:\n\n```javascript\nvar nodeExec = which(\'node\');\n```\n\nSearches for `command` in the system\'s PATH. On Windows looks for `.exe`, `.cmd`, and `.bat` extensions.\nReturns string containing the absolute path to the command.\n\n### echo(string [,string ...])\n\nExamples:\n\n```javascript\necho(\'hello world\');\nvar str = echo(\'hello world\');\n```\n\nPrints string to stdout, and returns string with additional utility methods\nlike `.to()`.\n\n### exit(code)\nExits the current process with the given exit code.\n\n### env[\'VAR_NAME\']\nObject containing environment variables (both getter and setter). Shortcut to process.env.\n\n### exec(command [, options] [, callback])\nAvailable options (all `false` by default):\n\n+ `async`: Asynchronous execution. Defaults to true if a callback is provided.\n+ `silent`: Do not echo program output to console.\n\nExamples:\n\n```javascript\nvar version = exec(\'node --version\', {silent:true}).output;\n\nvar child = exec(\'some_long_running_process\', {async:true});\nchild.stdout.on(\'data\', function(data) { \n  /* ... do something with data ... */ \n});\n\nexec(\'some_long_running_process\', function(code, output) {\n  console.log(\'Exit code:\', code);\n  console.log(\'Program output:\', output);\n});\n```\n\nExecutes the given `command` _synchronously_, unless otherwise specified. \nWhen in synchronous mode returns the object `{ code:..., output:... }`, containing the program\'s \n`output` (stdout + stderr)  and its exit `code`. Otherwise returns the child process object, and\nthe `callback` gets the arguments `(code, output)`.\n\n**Note:** For long-lived processes, it\'s best to run `exec()` asynchronously as\nthe current synchronous implementation uses a lot of CPU. This should be getting\nfixed soon.\n\n## Configuration\n\n\n### config.silent\nExample:\n\n```javascript\nvar silentState = config.silent; // save old silent state\nconfig.silent = true;\n/* ... */\nconfig.silent = silentState; // restore old silent state\n```\n\nSuppresses all command output if `true`, except for `echo()` calls.\nDefault is `false`.\n\n### config.fatal\nExample:\n\n```javascript\nconfig.fatal = true;\ncp(\'this_file_does_not_exist\', \'/dev/null\'); // dies here\n/* more commands... */\n```\n\nIf `true` the script will die on errors. Default is `false`.\n\n## Non-Unix commands\n\n\n### tempdir()\nSearches and returns string containing a writeable, platform-dependent temporary directory.\nFollows Python\'s [tempfile algorithm](http://docs.python.org/library/tempfile.html#tempfile.tempdir).\n\n### error()\nTests if error occurred in the last command. Returns `null` if no error occurred,\notherwise returns string explaining the error\n',
+681 silly resolved     readmeFilename: 'README.md',
+681 silly resolved     _id: 'shelljs@0.0.9',
+681 silly resolved     _from: 'shelljs@0.0.x' } ]
+682 info install colors@0.6.2 into /usr/local/lib/node_modules/phonegap
+683 info install phonegap-build@0.8.0 into /usr/local/lib/node_modules/phonegap
+684 info install prompt@0.2.11 into /usr/local/lib/node_modules/phonegap
+685 info install node-static@0.6.9 into /usr/local/lib/node_modules/phonegap
+686 info install cordova@2.9.0rc1 into /usr/local/lib/node_modules/phonegap
+687 info install qrcode-terminal@0.9.4 into /usr/local/lib/node_modules/phonegap
+688 info install semver@1.1.0 into /usr/local/lib/node_modules/phonegap
+689 info install optimist@0.3.7 into /usr/local/lib/node_modules/phonegap
+690 info install shelljs@0.0.9 into /usr/local/lib/node_modules/phonegap
+691 info installOne colors@0.6.2
+692 info installOne phonegap-build@0.8.0
+693 info installOne prompt@0.2.11
+694 info installOne node-static@0.6.9
+695 info installOne cordova@2.9.0rc1
+696 verbose about to build /usr/local/lib/node_modules/phonegap
+697 info /usr/local/lib/node_modules/phonegap unbuild
+698 verbose from cache /usr/local/lib/node_modules/phonegap/package.json
+699 info installOne qrcode-terminal@0.9.4
+700 info installOne semver@1.1.0
+701 info installOne optimist@0.3.7
+702 info installOne shelljs@0.0.9
+703 verbose from cache /Users/kylebuchanan/.npm/colors/0.6.2/package/package.json
+704 verbose from cache /Users/kylebuchanan/.npm/phonegap-build/0.8.0/package/package.json
+705 verbose from cache /Users/kylebuchanan/.npm/prompt/0.2.11/package/package.json
+706 verbose from cache /Users/kylebuchanan/.npm/node-static/0.6.9/package/package.json
+707 verbose from cache /Users/kylebuchanan/.npm/qrcode-terminal/0.9.4/package/package.json
+708 verbose from cache /Users/kylebuchanan/.npm/semver/1.1.0/package/package.json
+709 verbose from cache /Users/kylebuchanan/.npm/optimist/0.3.7/package/package.json
+710 verbose from cache /Users/kylebuchanan/.npm/shelljs/0.0.9/package/package.json
+711 info preuninstall phonegap@2.9.0rc1-0.12.0
+712 info /usr/local/lib/node_modules/phonegap/node_modules/colors unbuild
+713 verbose read json /usr/local/lib/node_modules/phonegap/node_modules/colors/package.json
+714 info /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build unbuild
+715 verbose read json /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build/package.json
+716 info /usr/local/lib/node_modules/phonegap/node_modules/prompt unbuild
+717 verbose read json /usr/local/lib/node_modules/phonegap/node_modules/prompt/package.json
+718 info /usr/local/lib/node_modules/phonegap/node_modules/node-static unbuild
+719 verbose read json /usr/local/lib/node_modules/phonegap/node_modules/node-static/package.json
+720 info /usr/local/lib/node_modules/phonegap/node_modules/qrcode-terminal unbuild
+721 verbose read json /usr/local/lib/node_modules/phonegap/node_modules/qrcode-terminal/package.json
+722 info /usr/local/lib/node_modules/phonegap/node_modules/semver unbuild
+723 verbose read json /usr/local/lib/node_modules/phonegap/node_modules/semver/package.json
+724 info /usr/local/lib/node_modules/phonegap/node_modules/optimist unbuild
+725 verbose read json /usr/local/lib/node_modules/phonegap/node_modules/optimist/package.json
+726 info /usr/local/lib/node_modules/phonegap/node_modules/shelljs unbuild
+727 verbose read json /usr/local/lib/node_modules/phonegap/node_modules/shelljs/package.json
+728 info uninstall phonegap@2.9.0rc1-0.12.0
+729 verbose tar unpack /Users/kylebuchanan/.npm/colors/0.6.2/package.tgz
+730 verbose tar unpack /Users/kylebuchanan/.npm/phonegap-build/0.8.0/package.tgz
+731 verbose tar unpack /Users/kylebuchanan/.npm/prompt/0.2.11/package.tgz
+732 verbose tar unpack /Users/kylebuchanan/.npm/node-static/0.6.9/package.tgz
+733 verbose tar unpack /Users/kylebuchanan/.npm/qrcode-terminal/0.9.4/package.tgz
+734 verbose tar unpack /Users/kylebuchanan/.npm/semver/1.1.0/package.tgz
+735 verbose tar unpack /Users/kylebuchanan/.npm/optimist/0.3.7/package.tgz
+736 verbose tar unpack /Users/kylebuchanan/.npm/shelljs/0.0.9/package.tgz
+737 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild phonegap@2.9.0rc1-0.12.0
+738 verbose /usr/local/bin,[object Object] binRoot
+739 silly lockFile f8338888-les-phonegap-node-modules-colors /usr/local/lib/node_modules/phonegap/node_modules/colors
+740 verbose lock /usr/local/lib/node_modules/phonegap/node_modules/colors /Users/kylebuchanan/.npm/f8338888-les-phonegap-node-modules-colors.lock
+741 silly lockFile 1b4a1f19-nan-npm-colors-0-6-2-package-tgz /Users/kylebuchanan/.npm/colors/0.6.2/package.tgz
+742 verbose lock /Users/kylebuchanan/.npm/colors/0.6.2/package.tgz /Users/kylebuchanan/.npm/1b4a1f19-nan-npm-colors-0-6-2-package-tgz.lock
+743 silly lockFile 69477ed5-egap-node-modules-phonegap-build /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build
+744 verbose lock /usr/local/lib/node_modules/phonegap/node_modules/phonegap-build /Users/kylebuchanan/.npm/69477ed5-egap-node-modules-phonegap-build.lock
+745 silly lockFile 9ebe071c-phonegap-build-0-8-0-package-tgz /Users/kylebuchanan/.npm/phonegap-build/0.8.0/package.tgz
+746 verbose lock /Users/kylebuchanan/.npm/phonegap-build/0.8.0/package.tgz /Users/kylebuchanan/.npm/9ebe071c-phonegap-build-0-8-0-package-tgz.lock
+747 silly lockFile 476cbb61-les-phonegap-node-modules-prompt /usr/local/lib/node_modules/phonegap/node_modules/prompt
+748 verbose lock /usr/local/lib/node_modules/phonegap/node_modules/prompt /Users/kylebuchanan/.npm/476cbb61-les-phonegap-node-modules-prompt.lock
+749 silly lockFile 2338c0be-an-npm-prompt-0-2-11-package-tgz /Users/kylebuchanan/.npm/prompt/0.2.11/package.tgz
+750 verbose lock /Users/kylebuchanan/.npm/prompt/0.2.11/package.tgz /Users/kylebuchanan/.npm/2338c0be-an-npm-prompt-0-2-11-package-tgz.lock
+751 silly lockFile a11c49cc-honegap-node-modules-node-static /usr/local/lib/node_modules/phonegap/node_modules/node-static
+752 verbose lock /usr/local/lib/node_modules/phonegap/node_modules/node-static /Users/kylebuchanan/.npm/a11c49cc-honegap-node-modules-node-static.lock
+753 silly lockFile e4d16a8b-pm-node-static-0-6-9-package-tgz /Users/kylebuchanan/.npm/node-static/0.6.9/package.tgz
+754 verbose lock /Users/kylebuchanan/.npm/node-static/0.6.9/package.tgz /Users/kylebuchanan/.npm/e4d16a8b-pm-node-static-0-6-9-package-tgz.lock
+755 silly lockFile b704e73c-gap-node-modules-qrcode-terminal /usr/local/lib/node_modules/phonegap/node_modules/qrcode-terminal
+756 verbose lock /usr/local/lib/node_modules/phonegap/node_modules/qrcode-terminal /Users/kylebuchanan/.npm/b704e73c-gap-node-modules-qrcode-terminal.lock
+757 silly lockFile b6e785d3-rcode-terminal-0-9-4-package-tgz /Users/kylebuchanan/.npm/qrcode-terminal/0.9.4/package.tgz
+758 verbose lock /Users/kylebuchanan/.npm/qrcode-terminal/0.9.4/package.tgz /Users/kylebuchanan/.npm/b6e785d3-rcode-terminal-0-9-4-package-tgz.lock
+759 silly lockFile 3d205568-les-phonegap-node-modules-semver /usr/local/lib/node_modules/phonegap/node_modules/semver
+760 verbose lock /usr/local/lib/node_modules/phonegap/node_modules/semver /Users/kylebuchanan/.npm/3d205568-les-phonegap-node-modules-semver.lock
+761 silly lockFile d3387ca4-nan-npm-semver-1-1-0-package-tgz /Users/kylebuchanan/.npm/semver/1.1.0/package.tgz
+762 verbose lock /Users/kylebuchanan/.npm/semver/1.1.0/package.tgz /Users/kylebuchanan/.npm/d3387ca4-nan-npm-semver-1-1-0-package-tgz.lock
+763 silly lockFile 45fd0708-s-phonegap-node-modules-optimist /usr/local/lib/node_modules/phonegap/node_modules/optimist
+764 verbose lock /usr/local/lib/node_modules/phonegap/node_modules/optimist /Users/kylebuchanan/.npm/45fd0708-s-phonegap-node-modules-optimist.lock
+765 silly lockFile 68fd6d19-n-npm-optimist-0-3-7-package-tgz /Users/kylebuchanan/.npm/optimist/0.3.7/package.tgz
+766 verbose lock /Users/kylebuchanan/.npm/optimist/0.3.7/package.tgz /Users/kylebuchanan/.npm/68fd6d19-n-npm-optimist-0-3-7-package-tgz.lock
+767 silly lockFile ab9276d1-es-phonegap-node-modules-shelljs /usr/local/lib/node_modules/phonegap/node_modules/shelljs
+768 verbose lock /usr/local/lib/node_modules/phonegap/node_modules/shelljs /Users/kylebuchanan/.npm/ab9276d1-es-phonegap-node-modules-shelljs.lock
+769 silly lockFile f5f52e8d-an-npm-shelljs-0-0-9-package-tgz /Users/kylebuchanan/.npm/shelljs/0.0.9/package.tgz
+770 verbose lock /Users/kylebuchanan/.npm/shelljs/0.0.9/package.tgz /Users/kylebuchanan/.npm/f5f52e8d-an-npm-shelljs-0-0-9-package-tgz.lock
+771 info postuninstall phonegap@2.9.0rc1-0.12.0
+772 error notsup Unsupported
+772 error notsup Not compatible with your version of node/npm: cordova@2.9.0rc1
+772 error notsup Required: {"node":">=0.9.9"}
+772 error notsup Actual:   {"npm":"1.2.10","node":"v0.8.19"}
+773 error System Darwin 12.4.0
+774 error command "node" "/usr/local/bin/npm" "install" "-g" "phonegap"
+775 error cwd /Users/kylebuchanan/Documents/development/NowPlaying
+776 error node -v v0.8.19
+777 error npm -v 1.2.10
+778 error code ENOTSUP
+779 verbose exit [ 1, true ]
