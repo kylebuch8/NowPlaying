@@ -1,4 +1,6 @@
 Now Playing v2.0
+================
+
 by: Kyle Buchanan
 
 License: MIT
