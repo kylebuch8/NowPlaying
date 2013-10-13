@@ -1,6 +1,7 @@
 <div id="slider" class="swipe">
 	<div class="swipe-wrap">
-		<div class="movie" ng-repeat="movie in movies" ng-style="{'background-image': 'url(' + movie.posters.original + ')'}">
+		<div class="movie" ng-repeat="movie in movies">
+			<div class="poster" poster></div>
 			<div class="title">
 				<h3>{{movie.title}}</h3>
 				<h1>{{movie.ratings.critics_score}}%</h1>

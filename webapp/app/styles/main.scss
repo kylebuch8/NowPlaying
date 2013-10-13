@@ -40,8 +40,23 @@ html, body, #main {
 }
 
 .movie {
-    background-size: cover;
-    background-position: center;
+    
+    .poster,
+    .spinner-container,
+    .poster-bg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .poster-bg {
+        display: none;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .spinner {
+        margin-top: -48px;
+    }
 
     .title {
         background-color: rgba(0, 0, 0, 0.85);
